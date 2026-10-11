@@ -1,9 +1,9 @@
 {
   "spec": "tenten-reward-indexer-v2/eligibility/1.0",
-  "generatedAt": 1790661458,
-  "snapshotTime": 1790661451,
-  "snapshotBlock": 75423634,
-  "snapshotBlockHash": "0x4ade71eb0273e64a3dd2266b15d1f81fd8b4726d33238d3151147403740b6386",
+  "generatedAt": 1791700211,
+  "snapshotTime": 1791700204,
+  "snapshotBlock": 85626589,
+  "snapshotBlockHash": "0x3967d47112a720ec3fe786da093ebc0eaae61817f12d405e21a735ce9e0a4dfd",
   "chainId": 4663,
   "token": "0xC4F021c73A5b6fFae6C43515f0a4BbF615B31c7b",
   "reserve": "0xC05ddFbd4f9a46ae297b286D4D6998a0c0Ea27FE",
@@ -13,9 +13,9 @@
   },
   "selfTransferPolicy": "noop",
   "totals": {
-    "totalSupply": "986602227024792494706252657",
+    "totalSupply": "984403414470396569280101380",
     "eligibleHolders": 0,
-    "ineligibleHolders": 565,
+    "ineligibleHolders": 556,
     "excludedAddresses": 10,
     "totalEligibleBalance": "0"
   },
@@ -23,12 +23,12 @@
     {
       "address": "0xC05ddFbd4f9a46ae297b286D4D6998a0c0Ea27FE",
       "label": "Reward Reserve V2 (mainnet)",
-      "balance": "10000000000000000000000"
+      "balance": "1012997042546028625668154"
     },
     {
       "address": "0x4fC94FD08Ff44abde7452BB109f1C5ab937ED4e3",
       "label": "Permanent Reserve",
-      "balance": "4046083321314774542905043"
+      "balance": "4165470842627992557859717"
     },
     {
       "address": "0xC4F021c73A5b6fFae6C43515f0a4BbF615B31c7b",
@@ -38,7 +38,7 @@
     {
       "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
       "label": "Uniswap v4 PoolManager (chain-wide AMM singleton)",
-      "balance": "145046135672109548842701339"
+      "balance": "128849138383710320891396809"
     },
     {
       "address": "0x8a6d37B2E6a2AC7970eF69d2932757F04be0A231",
@@ -58,7 +58,7 @@
     {
       "address": "0xB1a7a3A37F41e4dC9507F9B0F946B7F786c4AFb4",
       "label": "PAR reward distributor EOA",
-      "balance": "795801722576957404684115"
+      "balance": "905672506659048107633733"
     },
     {
       "address": "0x4B79B8298cd890A82dC9De1dE5dBb745Cf04353C",
@@ -68,1580 +68,1530 @@
     {
       "address": "0x313dfCB9E091D33482e75EEFa00E0156b42119b5",
       "label": "TenRewardReserveV1 (abandoned, never activated -- excluded so its permanently-locked TEN never counts)",
-      "balance": "1000000000000000000000000"
+      "balance": "1013985065037125908373638"
     }
   ],
   "holders": {},
   "ineligible": {
     "0x00000000009726632680FB29d3F7A9734E3010E2": {
-      "balance": "2590337758329006182233",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 28
+      "balance": "8380064411205867428324",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 29
     },
     "0x014EEAc00B248E5dd1015a3548c00ea966B469bf": {
       "balance": "2958238292862717582211",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x0176ABe8c5EDD9E06d101D7c4D1dE7c00DD3ffa9": {
       "balance": "11841930283109934684118",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x02aefd6D3fba8aE3Faa849433F36052BAe0ed22C": {
-      "balance": "1020163327248717600200890",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "balance": "2157978029850916518653262",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 8
     },
     "0x03A3edF7FFec4B7642A888CfbDC69f6eCCFBb720": {
       "balance": "2623334816031115900986",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
-    },
-    "0x03afDF296450F1FD66a9bdcEaad117C8E99e5C0b": {
-      "balance": "20220251011873080479345158",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x0433B29E11C794A7B077b9d4d08a5b4Be0BfbF8F": {
       "balance": "48832060176748577875210",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0x04ec161Ef7eD7bbE0a9f7Ce7Ca8abe21bb7034D3": {
       "balance": "170383419226973290972",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 29
+      "youngestLotDays": 13,
+      "daysUntilEligible": 17
     },
     "0x05fD1477687ddA45c977d7d7Da0FD32A2f420cc3": {
-      "balance": "183860377881633793175044",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 17
+      "balance": "186394249058456287278371",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 5
     },
     "0x062c8FDB1cea77d7248a1Fec01aeaB0E5dB12D68": {
       "balance": "7724692094549736718900",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
+    },
+    "0x068d9fd7fae2c1B07592b8CCA6661E54Df46aAe2": {
+      "balance": "21756362219831418305825",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 29
     },
     "0x06B9c7699C1BFa17ef75E6640a7c063d9a09eebC": {
-      "balance": "133975106658962215987573",
+      "balance": "136159802227369572648255",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x077f8b690073d2Ba5eE5faCa951174E48135Fd3D": {
       "balance": "3325839893786888616066",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x07964f135f276412b3182a3B2407b8dd45000000": {
       "balance": "36523887447907261296",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0x07BAb7D4bFCe0E18e1CE843Fa40895175D501D1b": {
+      "balance": "2718632126710088177674062",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 29
     },
     "0x082364086d2fBD5B3c2C05194f4736a5d885BD0F": {
-      "balance": "369170183690246418345799",
+      "balance": "1223952581004046695669184",
       "youngestLotDays": 2,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x085427C08076Ab9F4EB2F7a6C533F4Aacb93fF48": {
-      "balance": "23667711928020405868077",
-      "youngestLotDays": 4,
-      "daysUntilEligible": 19
-    },
-    "0x099730fB291a588813b0eF0696D31c63FB4D3493": {
-      "balance": "354629218991893765063308",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
-    },
-    "0x09A5418d0BBAfCAFA34e6f81d4fA72A4Fc2EB9B6": {
-      "balance": "488898169236637528260452",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 22
+      "balance": "28211441867741542182703",
+      "youngestLotDays": 5,
+      "daysUntilEligible": 7
     },
     "0x0a0F7A65e5642DFA9eCa815EBA5334ff71aa7Ab6": {
       "balance": "13253067652504521713117",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x0ae740515CF16C31b258BCB10E58140147d0D8Fa": {
-      "balance": "1645381391513198081264011",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
-    },
-    "0x0B4478B4031B6Fd2aF8B58873A6193f24D7C5715": {
-      "balance": "355829567205835674816347",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 23
+      "balance": "1667039002937717335332236",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x0Bc401BDf36cB7336580C3BAd25418e70A8bf9Dd": {
-      "balance": "132546616961107036723849",
+      "balance": "194893535890609440269920",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x0c3Effd5B82176F73381B05C449a555b8463DaE1": {
-      "balance": "16374041143322868358367352",
+      "balance": "11580754601348761593361488",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 7
+    },
+    "0x0C4800163aF3e815c8A027cFEFD83d9331D0E2C3": {
+      "balance": "4042687770020861337200254",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 30
     },
     "0x0C8B7b14925176b44d1333aB5b23d43B7655C26c": {
       "balance": "628275909682260089836",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x0cb6466b678BACC33D42BA84dEe1BcDde69CF645": {
-      "balance": "419940393147583006645644",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 25
+      "balance": "427121769788302028739956",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 13
     },
     "0x0D6798E46C0d579632b46d87b847CBe9a23FC30c": {
       "balance": "5892633531935584000057",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 17
-    },
-    "0x0dd7412169EF66499B26b63D1f7a37173e65514e": {
-      "balance": "103693824934050461727682",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "youngestLotDays": 24,
+      "daysUntilEligible": 5
     },
     "0x0ded7CABaaDFbFB889ca7Dcc3F969CEa52283031": {
       "balance": "470460251920193330096",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x0E08d408a3D68A9C63076803cF9ee8d6a658a2E4": {
-      "balance": "766764555931883247457597",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "balance": "774739144691387053428558",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 12
     },
     "0x0E10dd174E8906D13Ec2E96AfD6667503842f197": {
-      "balance": "8638028945357576396458509",
+      "balance": "5432136391974274694247213",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x0e1B88e6f866C6619e323CeA355EF30AE281E9c5": {
       "balance": "48127860175654476633849",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0x0e331a293BB22e93e2e5E417d84d755ae185dA02": {
-      "balance": "111018401927364714829989",
+      "balance": "112810922726002992340471",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x0E5A3d3B99F97AFb08AC8277813C31076cbA8F32": {
       "balance": "42232231",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x0e867974275Cd31C25015C2753C9d75F9f355379": {
       "balance": "1",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 24
+      "youngestLotDays": 18,
+      "daysUntilEligible": 12
     },
     "0x0F4D1156a707970dFA4ea098bC3EF6620445cE7f": {
-      "balance": "6663042551283110066619245",
+      "balance": "6750555751437312651849521",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0x0fcAc10Dae789EEaDDc248864877Ef2407E02C70": {
-      "balance": "78667068536069952507036",
-      "youngestLotDays": 7,
-      "daysUntilEligible": 23
+      "balance": "80674550529160636149380",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 11
     },
     "0x103a45D5E599Fba4fb4975Da6D58eb8a87c4cddC": {
       "balance": "1112493506707108719259",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 22
+      "youngestLotDays": 18,
+      "daysUntilEligible": 10
     },
     "0x107e309A78CEb084a38B2611C668ff059469964C": {
       "balance": "15056264639052226920760",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x109FCd6A9d3396fC88e7005707992c177b193345": {
-      "balance": "17363603743800675814786",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 20
+      "balance": "23482777716028814780512",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 8
     },
     "0x110E2B350D4857CD94F6B8BfB6A18951fEBD88EC": {
       "balance": "12595331319288012696725",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x1111110f0f73C0b2eF09eC012Eae758b3E03A902": {
-      "balance": "29792805400999105684438",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "30021015592824193033670",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0x1111115Af63bfBcc151e5753e2EA1a29C79D2F01": {
-      "balance": "203564841525514094119597",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "balance": "206396901947234517315615",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 6
     },
     "0x11111193880697e1C891f932501b4a2aA17A7b03": {
       "balance": "168752101717742532524",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 19
+      "youngestLotDays": 22,
+      "daysUntilEligible": 7
     },
     "0x111116053F09d34a7Eae8102887004445176CA11": {
       "balance": "1",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
-    },
-    "0x111826976E3EDFc59137e84C8843a44a8582a997": {
-      "balance": "2539355527136276500026",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0x1144e51E8e69dfEE0802411Ce4cAD63349dbc832": {
-      "balance": "289523989971746379932162",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 29
+      "youngestLotDays": 12,
+      "daysUntilEligible": 18
     },
     "0x114d574247342eafea95b7a9234e62984d48cD9E": {
       "balance": "1",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 21
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
     },
     "0x11596c47834aa77d72AD4cE4e65c2ffd2A934C32": {
       "balance": "752668223469550640014",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x11699a6e246E223c33152D135c82Ee78849005ea": {
-      "balance": "111263597309455198016705",
+      "balance": "113060077071783250227638",
       "youngestLotDays": 3,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 8
     },
     "0x11cf79200b1D96804a3e3C700628f24226d5b672": {
-      "balance": "175185738850691064286024",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 19
-    },
-    "0x1208305ba6C624AfA3e83e57F9E153aA366D305f": {
-      "balance": "385380805482725757017789",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 22
+      "balance": "192034439580735811903730",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
     },
     "0x1220b6745623b84358A0B59475F241DF8586835d": {
-      "balance": "306579567726759280752132",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "309671739398436114661935",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0x1302BF18c52827744F473ec01f6D13b22A70F78C": {
       "balance": "50898117578301813077582",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 18
+      "youngestLotDays": 20,
+      "daysUntilEligible": 6
     },
     "0x13192051578bF482CA2346bB161C10e7c79d66B3": {
-      "balance": "4032811016183314292233130",
+      "balance": "4085762340807016852258780",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0x13A38813af65BA401a2d5E44dbBDA7894CBabCcC": {
-      "balance": "1135440273178589003140936",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "1150106719686407353775011",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
     },
     "0x147CF09E7373B8FDA6f12021F1b0f98D6da1A566": {
       "balance": "43427313297929196050998",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "youngestLotDays": 15,
+      "daysUntilEligible": 6
     },
     "0x14Ff0Bc9417B6796f79768729002A793b51205B8": {
-      "balance": "1066626637818685328178942",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "1081334890138779387783443",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x1519c847932F7fcca146F93243d902Bd7320dBd8": {
       "balance": "19834986711514622873440",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 21
+      "youngestLotDays": 20,
+      "daysUntilEligible": 9
     },
     "0x169B0090258317771B06A05fC8A83Ea84b301222": {
-      "balance": "295103873452498183378695",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "298080300891737060933560",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0x16c299cBdBd78907180Fe3B949E9AAbFE308B8B2": {
-      "balance": "2164285877512730337861019",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "2191999653268699182290577",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x18363E81880c98a1F357f9b6Ed58488293b6d29B": {
       "balance": "640503062699165175283",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x1842837a59c23645E5642aaE196C1C4B9D032F35": {
-      "balance": "2214181457132510143026132",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "2242534147977822831835251",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
     },
     "0x189469b5d328a1a771fC25D82a2C3BB21401FA00": {
       "balance": "1310578167941888637652",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 21
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
     },
     "0x18D369D49d6bFff30a2A935f7d4Fd6509ac29cD1": {
       "balance": "7816941869818116844791",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0x192eCF83AED5453f12a1c0d17763A093E4734137": {
-      "balance": "2588255208481117107230252",
+      "balance": "2623657321973437195067689",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x199BeBF909BFC1b8C7eb5dE6Ae6d91364148BBA2": {
-      "balance": "1718123556239570931130437",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "1739795771728415573324070",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
     },
     "0x1a5948Ff600a3d5dd1bDf5796FEB262A74Ad14c0": {
-      "balance": "202070496245448243192176",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 21
+      "balance": "204855330107000456127759",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 9
     },
     "0x1B0d7Abe5DdE7d408883059bf9b7CB2A24974B90": {
       "balance": "8518282089923772598534",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
+      "youngestLotDays": 20,
+      "daysUntilEligible": 7
     },
     "0x1b54fD7b47d0F555678148a2C4a00b5AdD2b282E": {
       "balance": "77842154",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 27
+      "youngestLotDays": 15,
+      "daysUntilEligible": 15
     },
     "0x1b640c003d3F8Bba7aD69C9121cCbC94203Eb3c4": {
       "balance": "899791944156499524989",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 19
+      "youngestLotDays": 22,
+      "daysUntilEligible": 7
     },
     "0x1bC5392BDc1343b63cAd8035F2965ecE14DAab5e": {
-      "balance": "555168734339594064611973",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "561257036381426854064168",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x1Bf3455dA5D571F228D5d2B89B240e536aEA53B2": {
-      "balance": "314366416743386617159586",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "317537126832086400082822",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0x1C5288C47EA4c2D56169f5883FCaE6574181fd0D": {
-      "balance": "2668566049292881643788288",
+      "balance": "2706127840821389953747370",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x1d28B009a7c7E7bF71E91D61FA82504D10a7c33C": {
-      "balance": "282774285281753017620967",
+      "balance": "285626356086439525749332",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 8
+    },
+    "0x1FF856b594fF836b409438c546A4fAC1feC6E6B3": {
+      "balance": "12099896541523359654062768",
       "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 26
     },
     "0x20F6ee51340aDEed01A59B0e65cB3703f3dc860c": {
-      "balance": "6936648600099332579631",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "balance": "312455749425205280965",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 29
     },
     "0x20Ff8a3ecC6375E5d855F9792B0F2f7f3Aa88D22": {
       "balance": "2992477607269519667674",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 22
+      "youngestLotDays": 20,
+      "daysUntilEligible": 10
     },
     "0x22B8775C5a54152d75D9f7Dd1C2f55C315c57413": {
-      "balance": "1917430791261665639223011",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "balance": "1941971071773913649934040",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 8
     },
     "0x2383D2523d0c9Dd42d00957168B2bA0EEfacE1b9": {
       "balance": "1148587374384366643595",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x24eF1eF80D7b9077C019256631ee02452e6f0C49": {
       "balance": "179787505436582825751",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 21
-    },
-    "0x2551b86CA7437207a58dCd955431E20A8Bc26B7e": {
-      "balance": "856580995577754546336404",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
     },
     "0x25Ac5f76af9c1350E63335f593596F9EcC968fC0": {
       "balance": "6264875200954887428749",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x260E9eF13d1c009De13D2B0951811b266C58A109": {
-      "balance": "1591995494322363218382439",
+      "balance": "4038370093955592246196729",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 25
     },
     "0x26614834Dec1B50f9E53D6f16dA3C03618a463c6": {
-      "balance": "252101995490208031809544",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "balance": "254644704564423942601782",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 8
     },
     "0x2753b0975Ec4956dF4701B9f7052543EE03d8d45": {
       "balance": "6069586571613528510389",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 23
+      "youngestLotDays": 18,
+      "daysUntilEligible": 11
     },
     "0x2917fD707ADb6e194F3119472c3dD28D9ef519BC": {
-      "balance": "111785123974317324180158",
+      "balance": "113590024389236119430201",
       "youngestLotDays": 3,
-      "daysUntilEligible": 22
+      "daysUntilEligible": 10
+    },
+    "0x2977B96B4235330075165Ca5E3b0ef563745c354": {
+      "balance": "2493770319931395006757557",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 25
     },
     "0x29FD0e6d3cF5c2Ac870864cca0310d1b38c57306": {
-      "balance": "151242654848439987905021",
+      "balance": "153718560624489422317680",
       "youngestLotDays": 3,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0x2a1842baC18058078F682e1996f763480081174A": {
-      "balance": "750158557152214745273019",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "757960438383463368524537",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0x2A53b9eD4e515919FFD35792c583F64d6b9892EC": {
-      "balance": "186795666872293431437576",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 17
+      "balance": "189369990724427324488637",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 5
     },
     "0x2Ab232F6f35dD487E09b5D3880bd68AEa9Bfe064": {
-      "balance": "873180570601060236225174",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "884705937373110628945551",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
     },
     "0x2ac74d315b2BBC9397Bb53652D86D3c1fec3FC1c": {
-      "balance": "19930549281948641651929639",
+      "balance": "22985961173569002234065000",
       "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "daysUntilEligible": 9
     },
     "0x2b23d75C77595d7Bbe4FDc2E2e2B8061687d6259": {
-      "balance": "3395867350833865176784407",
+      "balance": "3440454342883319733883604",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x2b46cdE4E5E175218fDf99a9e7dF39F2cbEbD286": {
       "balance": "3347705172462100616660",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x2b9F4670b9E1e6bE57a1EEEb3dCFc5a54F693aa8": {
       "balance": "1000000000000000000000000",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
     },
     "0x2BB5B752cF78e7f1795B649a03B88f77bb939aEB": {
       "balance": "45600623399197340625666",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 17
+      "youngestLotDays": 18,
+      "daysUntilEligible": 5
     },
     "0x2c0e3CEBC163D00110b0c914fD2bBA7036979e31": {
-      "balance": "32866356595830259913214159",
+      "balance": "33298078963616117493270022",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0x2c42421A796AA4447DA957Ec364eaaB16711B034": {
-      "balance": "5896320317017243532220",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 24
+      "balance": "8745622434306416231603",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 12
     },
     "0x2c579D28826Ec23A29aB4b5fdfFb0dc9cDfa7015": {
-      "balance": "2548043558421372416505689",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "balance": "2579658815356472431968397",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 8
     },
     "0x2c8671a9490C9Aca5fE6b6b7325f4087E70aFF2f": {
       "balance": "1",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x2Ca37ff95caF25366eF16fc2E655b78a165D125F": {
       "balance": "1",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 27
+      "youngestLotDays": 15,
+      "daysUntilEligible": 15
     },
     "0x2cffEd5d56eB6a17662756ca0FdF350e732C9818": {
-      "balance": "536755709626754803425093",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "542642083769876129472596",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0x2d0679E61309f5825d0DcE4301d2916Cd0CB0dd6": {
       "balance": "30914488500813122140631",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x2d09c28F147Ff54Af49fD1AD87EA8Fd112677673": {
       "balance": "51868600240671792199977",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0x2D91Efa3E01C0D566E9f65b7E90b4fc7e776f31e": {
       "balance": "1724147220731310307338",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 29
-    },
-    "0x2E49b2912a3D1E807000C3350e74474a19a05915": {
-      "balance": "11246085343744637730142",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 20
+      "youngestLotDays": 13,
+      "daysUntilEligible": 17
     },
     "0x30d86B4982dC4d85f5dD1d434228248023454006": {
-      "balance": "1512711442365994574997134",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "balance": "1532503654121328725107783",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 12
     },
     "0x30f677FCd8BeFd76dA6791b9Fe47b6105c9c9728": {
       "balance": "3663680761568141553992",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 20
+      "youngestLotDays": 20,
+      "daysUntilEligible": 8
     },
     "0x31EfDde082B1D384F6d00c3600Bb4B6DFD83431B": {
-      "balance": "4150006580114402819037128",
+      "balance": "4204496697487200288001913",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0x322Ec64E23a20354808C0b40FBC81f1BF877a949": {
       "balance": "12697675145500000000",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x32C15FEAcd7aF0C40b8E64E901D61c6cDF4ce87d": {
-      "balance": "487624267308885281228451",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "balance": "1158269005712656139485706",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x33c882B099457bfAE0E305e02191C930695061B3": {
       "balance": "9056629661233173720456",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x33DDf23c1C62946b762A6e902AB3EE2901d3f798": {
       "balance": "94244757278659587419722",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "youngestLotDays": 12,
+      "daysUntilEligible": 7
     },
     "0x35ca07512dA95459665a067ffD1a8019F5a400Ba": {
-      "balance": "185342674051651310814879",
+      "balance": "188206670342038088969806",
       "youngestLotDays": 4,
-      "daysUntilEligible": 22
-    },
-    "0x35dC3fb23f88c00531F15E2b14cBe5B185E7Fe6C": {
-      "balance": "25159573254760119971034208",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 29
+      "daysUntilEligible": 10
     },
     "0x35faFDb17c24813c348e7d1159146B6e4A8dCB48": {
       "balance": "8886295442387942236713",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x3692dea4346c95eb3957d8022c40373ab2A21369": {
       "balance": "220355398093297992348",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 24
+      "youngestLotDays": 18,
+      "daysUntilEligible": 12
     },
     "0x36ABfb51102167E89622C4F01a21DfEde131Bb8B": {
       "balance": "130949449260270895373073",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "youngestLotDays": 12,
+      "daysUntilEligible": 5
     },
     "0x37bCecfcd9406a36115025a6a1e131c586813393": {
       "balance": "3035112009082368188",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x37E42cE7Dddbd731B0fB45f4a1d78CC4413f6Eb0": {
-      "balance": "364488764022404649123333",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "balance": "367303116802351109754967",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 8
     },
     "0x3836E42A43E1C4F3a70AF5Ba214FE42720b46Cc5": {
       "balance": "46392004431575941563469",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0x38E892FA590cb5f954D9096aB99f52effd72f46C": {
-      "balance": "115847919411986913979346",
+      "balance": "117737019875947245316482",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x391276932b5105C2DB8eE928dfd8872564d6d246": {
       "balance": "694609020015149788253",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 18
+      "youngestLotDays": 18,
+      "daysUntilEligible": 6
     },
     "0x3a72b17b49c4E08F725f49aA0F4F96235665f0c9": {
-      "balance": "271790297374777374318407",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "274531583313727944233881",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0x3A88bc828083eaDEA53F87520250e092B72350f2": {
-      "balance": "1316975309916877164391786",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 27
+      "balance": "1333993588742058798078365",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 15
     },
     "0x3A9C20eB614d212A637727a53e60f250232F0a54": {
-      "balance": "243854698729126086946344",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
-    },
-    "0x3b7b752662851bd91B256Af1FafF83ce5eDddD74": {
-      "balance": "6114207431301135125750",
+      "balance": "493306854218356942757004",
       "youngestLotDays": 2,
-      "daysUntilEligible": 28
+      "daysUntilEligible": 8
     },
     "0x3B7e2f8FBc2b2C99a5a0101256C58277d4F97144": {
-      "balance": "39644602817593556678957",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "balance": "315253005995076287668336",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x3BBA0d1516c6E2a447ce1De0A8b9EcaC45cC6a54": {
-      "balance": "1261054101966745224998108",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "1277343098373561192436335",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x3Bcaed2F9D58EBd14BB85A4BCF2E2A9764c38455": {
       "balance": "48837270144221847512",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 22
+      "youngestLotDays": 20,
+      "daysUntilEligible": 10
     },
     "0x3bdB21Ea8793AcBF0cE18954865b7572694d037f": {
       "balance": "252028",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 24
+      "youngestLotDays": 18,
+      "daysUntilEligible": 12
     },
     "0x3be2d2f7DAC7C314A8558955f9739846294728B8": {
       "balance": "1410084568163182732037",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x3C7501601223253D9e39287dA21B432fAe698A4A": {
-      "balance": "1005694335116151701119715",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "balance": "1018684857398671634890178",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 9
     },
     "0x3d9dD11aaB08d23E3d51d8C9F8AA81b7744fE7e1": {
       "balance": "920514577",
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
+    },
+    "0x3eb6Ff574085dC506E1b9783cd51337e3283675e": {
+      "balance": "1227458856121658716456153",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 13
+    },
+    "0x40132E775E14EF3a946FA5624468715456FA0bE4": {
+      "balance": "10882014008097180113",
       "youngestLotDays": 10,
       "daysUntilEligible": 20
     },
-    "0x3eb6Ff574085dC506E1b9783cd51337e3283675e": {
-      "balance": "1211805995960329661165352",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 25
-    },
-    "0x400DbD3d85daD648E1cdB8D789CB6d6bd324d472": {
-      "balance": "89508975583301269479549",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
-    },
     "0x40B5331aF58b36A059329A2A490A232884ECE0c0": {
-      "balance": "124137563510391642556110",
+      "balance": "126158149211893752754238",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x40F0f23c8c923f011e2048437c9f4E8c79d73586": {
       "balance": "17602393519928933936689",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x4132bBE3a57E8c85F5Ab62242288864Bc3150579": {
       "balance": "6443388572",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 21
-    },
-    "0x4189ce0C07b3baE425d3A694D38A3EB8E7695b4D": {
-      "balance": "9996495648945900886991069",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 22
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
     },
     "0x427ae7E525Cb329bA9725Eca42A5864cE5dfbFEc": {
-      "balance": "222327444335657397892485",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 21
+      "balance": "225427148005155539141713",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 9
     },
     "0x44163aA88e2afD4e485b8DF637b8A85F975C783d": {
       "balance": "24899654586610312169674",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 27
+      "youngestLotDays": 15,
+      "daysUntilEligible": 15
     },
     "0x4422719e06952f18E64846AaB84F505Ce53FBeA4": {
       "balance": "14338660008919540441107",
-      "youngestLotDays": 7,
-      "daysUntilEligible": 20
+      "youngestLotDays": 20,
+      "daysUntilEligible": 8
     },
     "0x44523f7CfF7E93B0AE91B100b09dcbDE0b2D7FD3": {
       "balance": "41648243526341394094",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 27
+      "youngestLotDays": 15,
+      "daysUntilEligible": 15
     },
     "0x4455AfEccD95F188Aa2841aE95fdaaD3D9fBC4Da": {
-      "balance": "359701466225476065014910",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "balance": "463326994489544008526090",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x4472D59bb0D286CB05e4c0e42a8988970d40438A": {
-      "balance": "3700485769356846597806063",
+      "balance": "3751878054174322056708614",
       "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 8
     },
     "0x4502Ec588B498f99ED6124fB16d45C4362521b9b": {
       "balance": "1103148362163350789010",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x459219f5C64abf1FD08dE9f4B5102ACD2057B5B0": {
       "balance": "307774634282975053418",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
-    "0x464947F6df377aDF52562019F4448F9cC40b12d2": {
-      "balance": "2523787745312921703941916",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+    "0x461437C94Dbf8Cd43fDA66b6743402B9EF444e4B": {
+      "balance": "65414674800891675559736",
+      "youngestLotDays": 11,
+      "daysUntilEligible": 19
     },
     "0x46F0469a56BEa9487851fA0bd5228EE793Ceaebb": {
       "balance": "1171301303247968243090",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x4754064857E390cE796595dcE38b51263EE8e374": {
       "balance": "6252863620979289934643",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x47FBe4f7B7C2f77D3C74868E98E27b32353BAA19": {
       "balance": "2235617",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x4813A4eb3f5BeB4Cb940DEee2f81471FFdD132bd": {
       "balance": "1255556092079155555820",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x482711407Df6CCEcc0d8433D6036F2FeeE407013": {
       "balance": "51829302906738259443823",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0x4860f15788aE8c93bfC5d3E59c876Ae769CfeF1f": {
-      "balance": "6779376493773828449560005",
+      "balance": "9162518703049408126345842",
       "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "daysUntilEligible": 12
     },
     "0x48A097DF16c7844a33B1c3d11aB353457846e13F": {
-      "balance": "19730637148188976051099",
+      "balance": "29842796188815341703279",
       "youngestLotDays": 0,
-      "daysUntilEligible": 27
+      "daysUntilEligible": 30
     },
     "0x48b51287FB5281EA0913100809C3b7f1649C7996": {
-      "balance": "16587232996658789820738",
+      "balance": "16923784647800381863636",
       "youngestLotDays": 5,
-      "daysUntilEligible": 17
-    },
-    "0x491Bde86D01cD9b5BA5C0f2AF7650C56d637CC62": {
-      "balance": "1016452626508437243944102",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 5
     },
     "0x4992F2aC27fE5817f58fed5e567263E807343357": {
       "balance": "174743193",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
+    },
+    "0x49CEf636E8A3cbBf5aaDe483fE4602F3743736F1": {
+      "balance": "2825081194957575826598439",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 22
     },
     "0x49D0D70EDB9CA1dD973c3f51E3f0953f300bBaFE": {
       "balance": "2072594188010688491082",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x4a8CBdE390e1685B24a98E7fCA92ECeaF89e4787": {
-      "balance": "574894553211425940455808",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "581199180013436480077232",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0x4ACb6C4321253548a7d4Bb9C84032Cc4eE04bFD7": {
-      "balance": "907360850831832444838698",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "920951278539612109330821",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
     },
     "0x4C575c52d18d18F759Fe556C0891EFc9F037DD75": {
-      "balance": "414131879528898420636829",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "417329545195061357346577",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
     },
     "0x4Ce301b2eB84Cf5bFc1C070073d424750F7DA09d": {
-      "balance": "105522899677408247028465",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 20
+      "balance": "122775495162966535541868",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 8
     },
     "0x4d105EF93CB945Aee1944F395bEc8d3522a2429A": {
-      "balance": "10994068664948358668592738",
+      "balance": "11806614176946040657136222",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0x4d1Ad166b982357E20e0EE1cFfe075aEECA46194": {
       "balance": "10424385131147447124853",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x4D5aF8C064A904Ac70Ce80C67be20be41f011724": {
-      "balance": "6616525905004100193710058",
+      "balance": "6703428149946027673307214",
       "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 8
+    },
+    "0x4d8b2BA080fB62bDA348Cf0DE15005DBFFB846e2": {
+      "balance": "767186961142564287801806",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 26
     },
     "0x4d8eDF53399736052850646b43E3329c66BB49DC": {
-      "balance": "201778016869849839334707",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "balance": "204585218404593816220434",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
     },
     "0x4d911f462c77694B3380a24FC4EA77adf37ADcC6": {
       "balance": "52557274537262366304556",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 18
+      "youngestLotDays": 20,
+      "daysUntilEligible": 6
     },
     "0x4dfeBb21D855115d4019819393e514977E490E5d": {
       "balance": "55428384",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x4e5865C0C371A75919C8f6b0B319D53F9B2A6237": {
       "balance": "45265974198405334918",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x4F51a751F6EDEEb5E9a30fb72bb652Cf6b7b5A28": {
-      "balance": "567331405548111765821051",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "3501647140591502719596",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 18
     },
     "0x4F73790a5bfCc83DB8a27f5D773c20D4Dec6b77D": {
       "balance": "9910016485742422171124",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x4f82e73EDb06d29Ff62C91EC8f5Ff06571bdeb29": {
       "balance": "2566536187412022427304",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x4F9706549Ce802bd63679b33CD61dDF7917Ad193": {
       "balance": "1052230839738144",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 27
+      "youngestLotDays": 15,
+      "daysUntilEligible": 15
     },
     "0x505962332655AD7F132Ec1E8ADd0e37097c31a16": {
-      "balance": "206106751109901538977232",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "balance": "208974175406226178714805",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 5
     },
     "0x50D062790399dcf9607dC9438769dB49E1f842C3": {
-      "balance": "2543171853857981397307348",
+      "balance": "14069741807817256601296873",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 10
     },
     "0x50f0cC09F0D29178E0233dcf3603257948836006": {
-      "balance": "156169245573893755726933",
+      "balance": "158725801709100174830847",
       "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0x50f6D3e15e02De8B1d2b105afe85ca6c90Ee24E0": {
-      "balance": "9722207763412083171606160",
+      "balance": "9857796923685439347695952",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0x51bfB1263d36Ce0794E346c2DA4D056675f78C19": {
       "balance": "1081015298232977952232",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x52866fD157577897Ce627022B9c19BD2E622Fd7a": {
       "balance": "8400000000",
-      "youngestLotDays": 13,
-      "daysUntilEligible": 17
+      "youngestLotDays": 25,
+      "daysUntilEligible": 5
     },
     "0x532AC6fA94797Eb90745f4b140D05BE1A9eFEe15": {
       "balance": "7441600300406648446911",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 28
-    },
-    "0x536D66e255Be6B411f8f8d149adD7FaB7AdB629B": {
-      "balance": "988948261366784725511298",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 22
+      "youngestLotDays": 13,
+      "daysUntilEligible": 16
     },
     "0x543756944f739dc1EC66ea38888a35554E1b5BCE": {
-      "balance": "2491328329530314134494415",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "2523006966013048524155071",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
     },
     "0x54ce1bC21dB656a8968ca13FadFb0c526686A761": {
-      "balance": "203468788162320821151868",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "205520981097065532651092",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0x555ee44B6F169C5b537CafD3eC4e3a60d4EB8515": {
       "balance": "5247905010",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "youngestLotDays": 12,
+      "daysUntilEligible": 18
     },
     "0x55666552Da7b61B6b9F8108a5df22e80E2f9CE7F": {
       "balance": "2375055391",
-      "youngestLotDays": 13,
-      "daysUntilEligible": 17
+      "youngestLotDays": 25,
+      "daysUntilEligible": 5
     },
     "0x55C581DA79D4F75Ca00c5871156b0843D5D130Ad": {
       "balance": "36545351404685749557713",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 17
+      "youngestLotDays": 22,
+      "daysUntilEligible": 5
     },
     "0x56a174874BE490F110091543bAd55ceb2dc18F7B": {
       "balance": "3617234050",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x56b779Cdd1eb16b3194a3E1E4CF1A6c7bCa9256c": {
       "balance": "10748087982750755806916",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 20
+      "youngestLotDays": 20,
+      "daysUntilEligible": 8
     },
     "0x56F2eE5BdC7f3b36041C6648376f0eB0881A7ac1": {
-      "balance": "259778201780675272956273",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "262398333325714436029814",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x57459BE4688667c05eb7A215296B6C94E83ED80C": {
       "balance": "1803209398635455360",
-      "youngestLotDays": 5,
-      "daysUntilEligible": 25
+      "youngestLotDays": 17,
+      "daysUntilEligible": 13
     },
     "0x5788858ED0aD70DEA5056738b7FfD1810EacB84F": {
-      "balance": "2281880431541535061754706",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "2311100010728713648193433",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x58bd62F54AD40412e56ec8400e296D60F5DFb9C7": {
-      "balance": "22082816115728780021862366",
+      "balance": "22372888992793318120647762",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
+    },
+    "0x5a3482713051B71f1DAeB532567121546ff650f9": {
+      "balance": "144232116277438306632858",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 22
     },
     "0x5a36F8f013cda833bbeD4f9d9d89B730814Bb573": {
       "balance": "2615749270498292254626",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x5a5026C8bAb9CAfcA97a53bD45D18810E3fd8518": {
-      "balance": "209487744555292521019885",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "balance": "212402206334372196589391",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 6
     },
     "0x5A6a1f06D45cf05B02123b7351C836FaF007C4Ac": {
       "balance": "56221492750422810013393",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0x5A6da46839Fe767C8a481a735Af978baa5576944": {
       "balance": "54451724913931996739777",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "youngestLotDays": 15,
+      "daysUntilEligible": 6
     },
     "0x5A9342e94f2015190fdd3ab10eBC6658d2711B2E": {
       "balance": "5577272334",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x5AaFc1f252d544f744d17a4E734afd6efC47edE4": {
-      "balance": "81989754847171322529262",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "balance": "210127887523016494255028",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 18
     },
     "0x5aEccb2C0B576C7CC9EE5B3F8179d4AcC4c69e72": {
       "balance": "450128916829200722623",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x5Aed030f51AE8894EF8162eC12808db0dCB5243a": {
-      "balance": "5412533416303048624486632",
+      "balance": "5483618910110895617277934",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
+    },
+    "0x5B17ecdc038351F1Cc38d7B339F263f55A7C242C": {
+      "balance": "739925903694949621150563",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 28
     },
     "0x5B25adE8DbA55fe6D3D7F7719018504899B729e2": {
       "balance": "54717156",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x5B416556fFa6e5facfCca6172EE9d5f19C1f8199": {
       "balance": "31607368663737835318255",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 21
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
     },
     "0x5b997ad00C9BaCA407A09388A7B84DCa931AB78d": {
       "balance": "42674425716848583264780",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 19
-    },
-    "0x5bA4a4A197111CE8B6a2C2776D7836A9E1868033": {
-      "balance": "3047543768114789965689",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 29
+      "youngestLotDays": 14,
+      "daysUntilEligible": 7
     },
     "0x5D244E23C6b071b410B8b993F58F15Fb2683b84B": {
       "balance": "41011904411986750207914",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 18
+      "youngestLotDays": 18,
+      "daysUntilEligible": 6
     },
     "0x5d88b0942e980a9B3825E64E6C60Edf1E7CC09Ba": {
       "balance": "2792145427282759353301",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x5e86aC762D2C4A12d50fE79CB69a04C87f0f4ce1": {
       "balance": "364102336001205212807",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x5eCBe366Abc30f6db460C624F1aDED2e8b4CFCc6": {
       "balance": "4068831790989651529936",
-      "youngestLotDays": 4,
-      "daysUntilEligible": 26
+      "youngestLotDays": 16,
+      "daysUntilEligible": 14
     },
     "0x5ee49fD06fa3779fE62015e316DDcD206B938d56": {
-      "balance": "1883484482341984407463539",
+      "balance": "7683282385895276486921232",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0x5ef5335028D48314721ca97D60b5524910C03855": {
       "balance": "27475239235557120361239",
-      "youngestLotDays": 4,
-      "daysUntilEligible": 26
+      "youngestLotDays": 16,
+      "daysUntilEligible": 14
     },
     "0x5f076F5CF9712632c6B0942aa94FD8Edf491F3cC": {
-      "balance": "451313297033835069610140",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "balance": "457911758605429124410081",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x5f3b7E837f2d5b6C38E78eE4f45BD140A226656e": {
       "balance": "4705000000000000000000",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0x5Fb1A7c90fc95263582D9703E07c5b1c147d488a": {
-      "balance": "34994877336116881773743",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 22
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x5FE785B2f589c79c89DBbaFa217BD7dEdd8c918b": {
-      "balance": "250508621955374203675246",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "253035260211357361441289",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x6053FC7a871AF434F5F26701B206469bAcB03966": {
-      "balance": "222858032935220105189935",
+      "balance": "238537019694074834280616",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
+    },
+    "0x6141D9F51685221F955FF8670fB478E389434ced": {
+      "balance": "5906459872840942889330156",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 25
     },
     "0x614c867c9331B1aC0Cf450654e47B81D793cF324": {
-      "balance": "2484462332394459873326506",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "2514322764297118128561472",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
     },
     "0x617cC76686F17E545Aff640D9927965cf8A60a06": {
       "balance": "26483117054026946225551",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x61bC830a06299439673Ac3b5Fd85EBE74722B37a": {
-      "balance": "39572195252498995512749",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 19
+      "balance": "41153055304295920144102",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x6205d2A4255B516F950057E739d4315238b2d2d4": {
-      "balance": "77736227095851142968313",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 18
+      "balance": "79556806119885067702325",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0x62d76Bf057B4d5fe2509b6e95318057DBd6B4c27": {
-      "balance": "623830977508162980731359",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "633551520168204994648710",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x62FC80823e766e4Cc7ccE3ca745d6Bb39fbcF4cA": {
       "balance": "5839146734062597",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "youngestLotDays": 12,
+      "daysUntilEligible": 18
     },
     "0x63a0154613766e4bF2272e31df83B0f8b4888a1A": {
-      "balance": "705941010972451871071648",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "balance": "2176997045487483257707251",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 18
     },
     "0x63B9D398E189A1aD1E7266ea297b4b552535b433": {
-      "balance": "2165972431135338033763000",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "2193707803284548182638147",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x63Bd3D4cFc10A4e70BB6Af040dB11602cEb6b1ED": {
       "balance": "63104113753832243517870",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 28
-    },
-    "0x64123478eC2380F34B9d9BcE002f5c3a3A86A451": {
-      "balance": "242340369987277407979044",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 26
+      "youngestLotDays": 14,
+      "daysUntilEligible": 16
     },
     "0x652147060720D9682F14A1DA0247F2342B5c479D": {
       "balance": "11543930489369187429000",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0x6625035B359748bdC7Ed7253CcAbe91707A81692": {
-      "balance": "1465517415019878703012542",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x66B0B6Ee7Af2fDA70f8F83ad39E9D4bA408EA564": {
-      "balance": "175421694910838083725219",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 19
+      "balance": "190158389713314601360940",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x66CAc6D1B211b8B1E758013cb129C53767ab55d4": {
-      "balance": "7522270654319438922103",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 24
+      "balance": "10466378464211443315923",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 12
     },
     "0x67d8B0fda759c2ed2E3883a33d9561AE4a486561": {
       "balance": "868199158836779618834",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 21
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
     },
     "0x682836178E564b90EFd7DAC0b8E1F2e87bEC8F94": {
-      "balance": "642988717615377776272984",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 28
-    },
-    "0x682Cf68Fc214d99b0Cbb2438d44bcd921F763b4F": {
-      "balance": "392774612638775121058",
-      "youngestLotDays": 0,
+      "balance": "972696414520070992253457",
+      "youngestLotDays": 1,
       "daysUntilEligible": 26
     },
-    "0x6a00A65fE42F352e28A1200B2EA5f9a2De5Ef0Ec": {
-      "balance": "10459144642963978363449895",
+    "0x682Cf68Fc214d99b0Cbb2438d44bcd921F763b4F": {
+      "balance": "614233143071308791058",
+      "youngestLotDays": 8,
+      "daysUntilEligible": 14
+    },
+    "0x6837412D49C78C0e2a9159c214d243c16F62EaEE": {
+      "balance": "10424522476604473744634115",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 24
+    },
+    "0x6a00A65fE42F352e28A1200B2EA5f9a2De5Ef0Ec": {
+      "balance": "10598209929003506751551899",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 5
     },
     "0x6a319dbD0844A5300c3e27138E07Ba85C8de33E2": {
-      "balance": "921979344354776005116271",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "76422597",
+      "youngestLotDays": 10,
+      "daysUntilEligible": 20
     },
     "0x6A58e1A8e3d8Fb6C9b19483Dbe5fc50AA7b5dA27": {
       "balance": "21742689118372855891",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "youngestLotDays": 15,
+      "daysUntilEligible": 7
     },
     "0x6BaF901694F189f4168d512f66C0A3296ea7A2B7": {
       "balance": "11813183419838422243354",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
-    },
-    "0x6Bb9Da5cB740D27E1C92a4C164F305A90AbA2f21": {
-      "balance": "1349425926589390826249",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0x6C132473e263105BD41BA3AeE118324dc0dd6A17": {
-      "balance": "6381652670017973031420450",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x6d4536125F828a54fC85d98EC6c94Ce18Bb154C7": {
       "balance": "14555071152193466146214",
-      "youngestLotDays": 5,
-      "daysUntilEligible": 25
+      "youngestLotDays": 17,
+      "daysUntilEligible": 13
     },
     "0x6d4907224c22478e02f0db2a89ce180Db5E36f57": {
-      "balance": "20085303862982730692748193",
+      "balance": "25405368500395994273679030",
       "youngestLotDays": 0,
-      "daysUntilEligible": 26
+      "daysUntilEligible": 14
     },
     "0x6d5c6c2A3B399BFf7C12A95A7EEDDF795dDF549a": {
       "balance": "1993240194546758106865",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x6De806a9804b47F59B3520Fdde2ffa31523aBdbD": {
       "balance": "121184411310773875197039",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 29
+      "youngestLotDays": 13,
+      "daysUntilEligible": 17
     },
     "0x6dFd55178d40805Ada988242a40FE5d232dAf4d5": {
       "balance": "25898256383634916479786",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x6E7Bab2E31E4a13aD388633e117Db01DA4B462da": {
       "balance": "37845533130889044476653",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "youngestLotDays": 15,
+      "daysUntilEligible": 6
     },
     "0x6EAbF3D6cf50c573984445D1f7896F436145a4A8": {
-      "balance": "5002526904190928693394713",
+      "balance": "1000000040282483512311905",
       "youngestLotDays": 0,
-      "daysUntilEligible": 22
+      "daysUntilEligible": 21
     },
     "0x6efE7B5761d446cA5Fa5b00d4428f860CEa382B1": {
       "balance": "11356748350731228262884",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x6F065fA1FC298079b12b87aC0110A50f075FAE4F": {
       "balance": "6988623719358711368988",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 24
+      "youngestLotDays": 14,
+      "daysUntilEligible": 12
     },
     "0x6fa9b344e1c241977157dB8F65Ee6369c0472781": {
       "balance": "3804740",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x6fAfE197c87f024aD8BEA006233F5F2dE04AD838": {
-      "balance": "41870140082173559578367",
-      "youngestLotDays": 7,
-      "daysUntilEligible": 23
+      "balance": "43615238580005603882272",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 11
+    },
+    "0x6fc55c6A57710AFAB08A195604dF9B2Ca78Cc1D5": {
+      "balance": "113228626094475952983445",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 27
     },
     "0x7011d5d6e7A0aD43F9B0eC3c8f293f49481bC08F": {
       "balance": "2543322121",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x70185Aa9212716Ccb2231bD27D8f981669D4a8c1": {
       "balance": "4931280526268205",
-      "youngestLotDays": 7,
-      "daysUntilEligible": 23
+      "youngestLotDays": 19,
+      "daysUntilEligible": 11
     },
     "0x71a862030f90019c63495457017Ffb4F087cb1CB": {
       "balance": "82971577752241303751",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x72426a0B34e4793423ABfD6976df81E1667F9c6d": {
       "balance": "84854779238969550483862",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "youngestLotDays": 12,
+      "daysUntilEligible": 7
     },
     "0x7282249282902e1f99c2CB0A04230091bd30FE3A": {
       "balance": "26517507762404335223",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 18
+      "youngestLotDays": 18,
+      "daysUntilEligible": 6
     },
     "0x73691cee20db22f55A6fd0d5948aB00e0Fb973b1": {
       "balance": "3940627487062347763501",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 18
-    },
-    "0x73AcFb04CFb099aA8e344D08fb9ddbcD1e9C93E8": {
-      "balance": "509706274535391109259656",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 28
+      "youngestLotDays": 21,
+      "daysUntilEligible": 6
     },
     "0x73f7D871da86bb2928D513F138Bf075423183411": {
       "balance": "1363672675564820489068",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 21
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
     },
     "0x74877309e796cB317BB5DB5Ce3F1cC7a4b64C249": {
-      "balance": "457390569850344290860824",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 20
+      "balance": "464077884667352080740972",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 8
     },
     "0x749Fe1885440bA5ec7381C9fdE06FD05B83C4c5C": {
-      "balance": "1038072829304840316602268",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 27
+      "balance": "171819921298812754828578",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 20
     },
     "0x74a03B45047A46472bcFaF133cdB595e232bf1f3": {
       "balance": "1854324112079133816001",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x75E11A4B708D222b7E8BF48D2c4c71fc8fd6D1fF": {
       "balance": "1338958866994549299499",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 21
+      "youngestLotDays": 20,
+      "daysUntilEligible": 9
     },
-    "0x7628BE438b0B2E3BaBF90811f68025F672489405": {
-      "balance": "106012214737779629218163",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+    "0x76515aCB5B7F4cFA9B9ccd85B64677BeCEd3c4d7": {
+      "balance": "83591857731420777635084",
+      "youngestLotDays": 5,
+      "daysUntilEligible": 25
     },
     "0x7661272DEB8ffaE820Ad50a1658eC9Ff5483165d": {
       "balance": "2002679465281350208",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x77018191C32bdf7542d8D82007ae26b41f614D96": {
       "balance": "3691976951947646105754",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 22
+      "youngestLotDays": 15,
+      "daysUntilEligible": 10
     },
     "0x7739E6A84540bC724Cf5C87eD95d93aEA7aA4308": {
-      "balance": "1560923081679254845806",
-      "youngestLotDays": 0,
+      "balance": "145283070",
+      "youngestLotDays": 2,
       "daysUntilEligible": 28
     },
-    "0x7772D815ce9d79Eb28a15424292a9E64A0c0742c": {
-      "balance": "356633536944031206796807",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 20
-    },
     "0x7900EdA95Eeb362f8e5b93Bc9d4EaA52D8ecf871": {
-      "balance": "57832015363257520454855",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
-    },
-    "0x79Ae28466CFBab814682E5c03E6cCF7f2096BA99": {
-      "balance": "2616387638275658378614456",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "59469750588905024784498",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x7a3bBDF76Fbc642B24478fFa3453F603f39CfCE0": {
       "balance": "8112466460",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x7A4b2a82f3CD21bbE99358fdEF38e3A3C91dd066": {
-      "balance": "14216894669687610127428212",
+      "balance": "20816996889314706179655991",
       "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 8
     },
     "0x7a9d9573b33496353FC6618c1999C36cBBa9561A": {
       "balance": "27599041",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0x7aCDa049F872A2F882eCBA4Bd42f2e61944d098D": {
+      "balance": "2076820172705674983447214",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 19
     },
     "0x7B8A99dE75a2E10dE13651a224de22b255985E31": {
       "balance": "1910453163468681578",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x7c0D738D564EcFf483E3dC242eF67b1004f67CA4": {
-      "balance": "346642440228153518120096",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "balance": "350385598084922740472988",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
     },
     "0x7c46C897Bfd8B048321fCd641c01CB504823CC13": {
-      "balance": "2442871778201356472268526",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "2472233838760615856234942",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
-    "0x7c6ca548A92a1C8d171c1dE1604ED2D385340155": {
-      "balance": "10383279375625637899152",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
-    },
-    "0x7D38833adE2Ef667B9F46b9669CB1Cf37F39D6Dc": {
-      "balance": "90800490006500439589239",
-      "youngestLotDays": 5,
-      "daysUntilEligible": 19
+    "0x7d8Eb200C45c273E3bEf1bC55C09f76805158e96": {
+      "balance": "8846409126225579367005",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 26
     },
     "0x7de970ceEab24eCb9FC1378c6C8902c3A4fAA1c8": {
-      "balance": "302371637915125885882955",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "305421368267387937669765",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0x7E846897AD4bCF95f5cECC3ab9E1E27fAc93943f": {
-      "balance": "173421667910564335087691",
+      "balance": "176221761780296062461611",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x7E89Ebea953497c4ab6C7D298234E53D2BCD7AaA": {
-      "balance": "1834633411717931313574841",
+      "balance": "3603242184598234867935720",
       "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "daysUntilEligible": 18
+    },
+    "0x7eA0d0486314A95888168Fe64e8276008957Bb0e": {
+      "balance": "260636572229420891929571",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 26
     },
     "0x7ee1520a15B07A9EF7E714cEc549f7eF14B7A5EF": {
-      "balance": "3457568356594538693053549",
+      "balance": "9450664019557918711363333",
       "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "daysUntilEligible": 9
     },
     "0x7f04CeEDFCa4F7Dc3d93d8b67b6eD4910120888f": {
       "balance": "2684946514694951755178",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x7Fe67dB52054F274E6Ab8FC9F95981489e8A71f8": {
-      "balance": "1218331031193290294655685",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "1234068175030710866424996",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
     },
     "0x800F5752490091De20263F4ef90C2Cd4Cc1d260a": {
       "balance": "28528886620443420190523",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "youngestLotDays": 13,
+      "daysUntilEligible": 7
     },
     "0x8073A475346E14E5e9839d1Fe2D27323bC4c9176": {
-      "balance": "101600182488013936349935",
+      "balance": "103240635215610972288538",
       "youngestLotDays": 3,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0x808Cd4EacB341E3d18e385f0859EA6aD47443a62": {
       "balance": "30633554899167486786732",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "youngestLotDays": 13,
+      "daysUntilEligible": 7
     },
     "0x82D5864d1D232F8DEA2fB0c8Ad245483ffe7f638": {
-      "balance": "322947339128066801521706",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "balance": "325994573153560028913794",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 6
     },
     "0x82Da5Aa76c2B4863A6b861819792f3F19507Acec": {
       "balance": "2999893213101136359915",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0x834A13798C388DFE5367248fbf60997eD313B8B9": {
-      "balance": "120655747695474560078053",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "balance": "128830341755436100583881",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x839476F61b6dC94D511d1b66eF0C2dafA85D2622": {
-      "balance": "21366887976396371589692458",
+      "balance": "21647556648215560725097523",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
-    "0x83b30E55F5991a45dc0dE92F790E2a3E72812480": {
-      "balance": "1220440584865730876589",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
-    },
-    "0x850ae6841F740944ff0FE520839a6D6F4Df8B8E0": {
-      "balance": "8497762813",
+    "0x839c12F92bEB14416475A4d4DFfC292988F3d3DD": {
+      "balance": "100000000007413111446117",
       "youngestLotDays": 10,
       "daysUntilEligible": 20
     },
+    "0x83b30E55F5991a45dc0dE92F790E2a3E72812480": {
+      "balance": "1220440584865730876589",
+      "youngestLotDays": 20,
+      "daysUntilEligible": 7
+    },
+    "0x850ae6841F740944ff0FE520839a6D6F4Df8B8E0": {
+      "balance": "8497762813",
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
+    },
     "0x852c13d6b81230625d26651DE78DC50EF1E6D9Be": {
       "balance": "2157328263981769333309",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x853DAF9a6f8dB020eA73e6F17ed0221e51dC5B14": {
       "balance": "11552966606748348211421",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 19
+      "youngestLotDays": 21,
+      "daysUntilEligible": 7
+    },
+    "0x854B24019F4B2171A7868AB11C3EFFa15D668fb2": {
+      "balance": "9742390791139153223757",
+      "youngestLotDays": 6,
+      "daysUntilEligible": 24
     },
     "0x85a0b588Bb59Ee7a8EAcf53Cabed649fbcD2b24f": {
-      "balance": "924111201163660461792377",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "936047916655705390501814",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0x864DF6e2a4c8F789A2130e7710ceE9C08fE85394": {
-      "balance": "397597736023254720815246",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 26
+      "balance": "667806203735541050282947",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 14
     },
     "0x86c525C93E7f77a28Ce3B77aC5D136C3Bc9fb131": {
-      "balance": "118399244381876891175996",
+      "balance": "120337489735601592920632",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
-    },
-    "0x87D9668773eE3866e9E0946E770CA1A327f2c4c4": {
-      "balance": "858499200723564756038879",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 25
+      "daysUntilEligible": 6
     },
     "0x8838B68E8538aA9fC98761b516707aD374449Eb5": {
-      "balance": "78432601614868849891304",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
+      "balance": "80653721416712337041177",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x885c064F9daa4Df224564B974622e8126757FFfE": {
-      "balance": "11037160066125691907095634",
+      "balance": "13662692979779678699638107",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 18
+    },
+    "0x889784860Ac936ec39251F4475c2715557F4D4C1": {
+      "balance": "258344307859597265636168",
       "youngestLotDays": 0,
       "daysUntilEligible": 30
     },
     "0x88C5c1493643f043fAbb8cF6cd03f52FbE790338": {
-      "balance": "288689989116852280181628",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
-    },
-    "0x88e83c1273a89A2311a8afb6464a1De452878075": {
-      "balance": "659241185710754201816244",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 20
+      "balance": "291601725906302740748961",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 9
     },
     "0x89011230eD8030b73C82C550369B527BDc4aeD59": {
       "balance": "12603362916661960400",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 22
+      "youngestLotDays": 20,
+      "daysUntilEligible": 10
     },
     "0x8925882490C3bC160876f9174029Fcfb2Ce50324": {
       "balance": "3883142641861343269703",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 24
+      "youngestLotDays": 14,
+      "daysUntilEligible": 12
+    },
+    "0x8a83638bA638fe96203deC9E326Fda09233ac2e1": {
+      "balance": "28616862621822013904198",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 27
+    },
+    "0x8b1fb4937bAB5D02248a0825bF2564863237b00F": {
+      "balance": "7490250351182828652",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 21
     },
     "0x8B70D0595f8Dd15869174FBD1Eb2CB87466BeEBe": {
-      "balance": "369944508304670410891464",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 17
+      "balance": "374975778342990249986890",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0x8b73c11e053581620bF5D7826D0942c50cb7B9Cf": {
       "balance": "911283261",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x8B803E887625541985b4049A6d5f595f61Ed35E7": {
       "balance": "2142888376421383324076",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x8BEA818c58Ddd0a1F5E095fFA44E79A656f5539E": {
       "balance": "6908949391437414126042",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "youngestLotDays": 12,
+      "daysUntilEligible": 9
     },
     "0x8bfcF10cfeF2dCb3C232E91607a28606A8EcfA0b": {
       "balance": "4255000000000000000000",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x8C0f48CEaF7F2c88Ba7D70A24C92EF067BC6EaB9": {
       "balance": "738595625598706699122",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x8cd07507e413863e648daC95B9CB27Cc79A8926A": {
-      "balance": "392507716673146978286490",
+      "balance": "1623963267463786739983802",
       "youngestLotDays": 2,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 8
     },
     "0x8cD35ba39FE809dfF839E47B3d417B6C58F8a658": {
       "balance": "44565457185099195",
-      "youngestLotDays": 13,
-      "daysUntilEligible": 17
+      "youngestLotDays": 25,
+      "daysUntilEligible": 5
     },
     "0x8cE1dE121ee39E6539B0e8F52373Fec4eBB1eCB9": {
-      "balance": "140617580943433351209840",
+      "balance": "142910593530534965099318",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
-    },
-    "0x8D4FE3909302A098a303B29dbD562362aD6ff0Aa": {
-      "balance": "6738007878246600324526404",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
-    },
-    "0x8ebf8353A8a98c5F2C0F3e586744a60e11435745": {
-      "balance": "95617104449119272185002",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 6
     },
     "0x8ee2b63d10540052297de8a1357953F9016bF35e": {
       "balance": "3016305436193033650780",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x8F10B468b06c6FD214B65F87778827F7D113f996": {
       "balance": "1",
@@ -1649,1004 +1599,1024 @@
       "daysUntilEligible": 30
     },
     "0x90D431F12ED091f0D9Bdd75F1E1828D65Dde06fb": {
-      "balance": "10134050856500987026597535",
+      "balance": "10268791350326434092131115",
       "youngestLotDays": 0,
-      "daysUntilEligible": 26
+      "daysUntilEligible": 14
     },
     "0x91dA9f724D92b2dFD2806A097469C76d41074434": {
-      "balance": "66274952781629368950885",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 18
+      "balance": "68151782147973029765138",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0x929313a63fC1f07bfE1D3C236B00a043f1D2009b": {
-      "balance": "59441807950620533855119",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 18
+      "balance": "61127357860179702779798",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
-    "0x92bE6Fd4632c980c6Fbe903bc034cC85FAF1D8DA": {
-      "balance": "10068941518865760341865",
-      "youngestLotDays": 4,
+    "0x932B4d3D0261f907cf94Be547ccBDC0e8B6be90A": {
+      "balance": "27937773451388910861213",
+      "youngestLotDays": 2,
       "daysUntilEligible": 20
     },
     "0x933d85a3aeaf10d0ca72cD70C6dBB0F3090e646c": {
       "balance": "57682265293731121107765",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 21
+      "youngestLotDays": 15,
+      "daysUntilEligible": 9
     },
     "0x93631f5AED49014A11652e1f94EE724357d62118": {
-      "balance": "6896087097819815893169079",
+      "balance": "9637297053092076864685553",
       "youngestLotDays": 0,
-      "daysUntilEligible": 27
+      "daysUntilEligible": 15
     },
     "0x93890F79661326d65757D27A75896484321e7b7e": {
-      "balance": "384149409878285349243122",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 19
+      "balance": "389373867527396136003572",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x93AD29e36b088f13d3d0bae1A9DAB77F892FdB83": {
-      "balance": "33328489869454173121896",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "balance": "34956665233596418992711",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
-    "0x94C10B7ABF36Ae8E830f3a2402A68e48F35104a9": {
-      "balance": "74553264792622055519169",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
+    "0x9408D30142dD776390C050a73608BdE688bb84cF": {
+      "balance": "817944984050682227234413",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 27
     },
     "0x94D120B691f5BA13B25Af77DFC4CE5E19350bc8E": {
-      "balance": "2857978943155846615278604",
+      "balance": "2898209842416308834216077",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0x9570ef916119D2507ab374075fFf75FE1aE368ba": {
-      "balance": "661963831160328501935012",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "balance": "670024640075192943157714",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0x9625727B6CF5D6F42A35d63EEEfa442129039C56": {
-      "balance": "64360098460653423176937",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "67895056637553624780403",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 7
     },
-    "0x96Cc40979cB112eEB2327AF10f3ed11CD2C00c2d": {
-      "balance": "35774468120012525207757",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+    "0x9762C38a4001e063d9AE6dF393D578C969319E4D": {
+      "balance": "9779828542852996826438896",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 28
     },
     "0x97a390AbDd72F7d5718087c103CD7A4306d0a8fB": {
       "balance": "42201331349037340746427",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 20
+      "youngestLotDays": 18,
+      "daysUntilEligible": 8
     },
     "0x97C0CF5a4fB8c75AE113BF0D11767D923eECab51": {
       "balance": "5963714896535289474660",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x9806728F421125B595541649306f1B9Aa3D93137": {
       "balance": "6245883140354529696205",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0x98be8390209BB107e96f13119A864f4B7A132790": {
+      "balance": "232573375257796207420540",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 20
     },
     "0x98f278Aa4C1f35C40197fCa9a0A65225A3009246": {
-      "balance": "246913205975356606633962",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "249403580746712461135852",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x990f4Ef0B42923363dEDbeda1b4Cb11Bfb44d4bf": {
       "balance": "4551528193320132551895",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 19
+      "youngestLotDays": 21,
+      "daysUntilEligible": 7
     },
     "0x9A0DAa98309448135195bFA0cb95e3B63FED3E22": {
-      "balance": "2433369784476068267130158",
+      "balance": "1752734231727366716470123",
       "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "daysUntilEligible": 24
     },
     "0x9A3a2eD2b90Ff8e3B8a005F1912bbD5f217A4470": {
       "balance": "1672482547885949115591",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0x9a42301779aA0b8FC6ECBaA93B8dA43FB719316A": {
-      "balance": "1278785734915462626239237",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "1295310518660899538209372",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
     },
     "0x9A462753d92B27Ecae8B8251C3A4B92402Ab5ae1": {
       "balance": "4343348672494000046259",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 19
+      "youngestLotDays": 21,
+      "daysUntilEligible": 7
     },
     "0x9a6FDF89658A096Fe27E07AA337faf9779c23e47": {
       "balance": "705616",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
-    },
-    "0x9b0cB968f3A4Fa4aC109E35C1ee6A968Ba4c4075": {
-      "balance": "673004028454903919012932",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
-    },
-    "0x9B228B4F71B3Bc7e4b478251f218060D7B70Dc25": {
-      "balance": "3069765224860906207006239",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x9Ba067DC1ca78781fD7b6f7d806ff842aDC29607": {
-      "balance": "651521204925619116672662",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "658104916567761715175172",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0x9BCf8A66eBf11EE2D29149c9241F0aACf1cfaB0C": {
-      "balance": "347786440723167627592400",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 27
+      "balance": "350471828677175358217230",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 15
     },
     "0x9C4DAB12688bAf3656B8CD31d36919c84F61072D": {
-      "balance": "7926613631683023203985182",
+      "balance": "8032005055788373451216228",
       "youngestLotDays": 0,
-      "daysUntilEligible": 25
+      "daysUntilEligible": 13
+    },
+    "0x9D464361766aF710a497f8CFf91c87b56bD17f20": {
+      "balance": "1709287566208664261052939",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 27
     },
     "0x9d61DC8a8c6688c7356ab8cB384d071Bd067dfaf": {
       "balance": "6370749114767874859",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 24
+      "youngestLotDays": 18,
+      "daysUntilEligible": 12
     },
     "0x9D9C5aC7AdcbDcD6E8C69B50EB48730AA4202250": {
       "balance": "7736209253232444137146",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
+      "youngestLotDays": 20,
+      "daysUntilEligible": 7
     },
     "0x9f7952d8bD331A31ca0108301fC1f8f114aB3A1D": {
-      "balance": "564255036269874882548759",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "balance": "570442983963872584529903",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 12
     },
     "0x9F96471862a69E254a25dCbEE93A7Ad27EFfDfF9": {
       "balance": "18245993462175711186568",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0x9fb3d5c74857A807a58e1BB8f1877fA3A3685eda": {
-      "balance": "55430685687824412165683",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "balance": "98890674359287746238283",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 6
     },
     "0x9fD3aB788d00D0E4eaB74D0A249CDfDaA3659567": {
       "balance": "369902790005139674235",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0xA06e040eabf1B9F1FBf02d1Fc9246066b7696B2A": {
+      "balance": "11026699699943540605565818",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 26
     },
     "0xA12055099A40DE92fBa42344eA6722e5B825ac11": {
       "balance": "23439278721347579839886",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xa13Ef0AeA4D9e4aD8382bb0aE4E4B23f3507c84f": {
       "balance": "3456792227547804940017",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xA17d2db340427123D97a2E9a6A0c6Bf1048d577d": {
       "balance": "8229329244",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
-    },
-    "0xa2019a118BfB7B160D94AbfFDDe6B96089799F49": {
-      "balance": "1750022009479718829759",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 29
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0xa2c8c9593394e856d1d66c1418A9BdD134eCDB99": {
-      "balance": "2370737918015344652189",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 19
+      "balance": "2370737918015344652",
+      "youngestLotDays": 21,
+      "daysUntilEligible": 9
+    },
+    "0xa2fe8E38A14CF7BeECE22aE71E951F78CE233643": {
+      "balance": "36699258331725779230495",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 29
     },
     "0xa37F757652dC96228B3Bf0fB26cd341A09500a1B": {
-      "balance": "969479252933693255250860",
+      "balance": "13707684",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 21
+    },
+    "0xa43E6b503Fd0Da62c0382e3d350A1C77378408E8": {
+      "balance": "2074673849963470952546155",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 30
     },
     "0xA4A2004A825531d6dafC3CBf18cD6Db76A5d10fF": {
       "balance": "22125785171057566158280",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 18
+      "youngestLotDays": 23,
+      "daysUntilEligible": 6
     },
     "0xa4c7c0a56B3c40eDFa10bc65e4f594d87774Fb98": {
-      "balance": "2304725023167471920201259",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "2334237128354166563565009",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
     },
     "0xa4cEB9a760d50D1aDF9bA0984bC845d1E7cdBd65": {
-      "balance": "33243933037294760067100",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "balance": "34839089367364554970622",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0xA4d9D7068d84bbDF2E3Caf1bBF2e1135BCD41984": {
       "balance": "748529714608244426332",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xa64414565b34822d132d6dF38432850D323BcD5E": {
       "balance": "807827277978280777333",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xA6f79c5E220E81A79D2B7Ce2257C7eEe080ed4de": {
-      "balance": "1031310310909229028965389",
+      "balance": "1045521306690372995543383",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
+    },
+    "0xA730fb8649D046316EBBf4a31873506973592A00": {
+      "balance": "1765498978200189392665892",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 22
+    },
+    "0xA7D7Ac8Fe7e8693B5599C69cC7d4F6226677845B": {
+      "balance": "7193828951067566502773106",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 20
     },
     "0xa81F5ECE713095BB9811d2FF8Cfc4211374D88D5": {
       "balance": "1973865555620618044516",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xa8c5106F7da40d717Fe06bb05e50870Be2dF790e": {
       "balance": "594008248290509700",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xa9028FDe0292Ba5bBDdc725C0e1441aee37722Ca": {
-      "balance": "5368165622218998583008516",
+      "balance": "6122284544981854030151016",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0xAA0dB352740108E35f4D5b7eAc909Dd26aEE7397": {
       "balance": "25066668927843957891096",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xAa7AF3c83854AD7CE25E0eDb203De2eb6286bD36": {
-      "balance": "326484216506664089835407",
+      "balance": "329564823444041830344493",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 8
+    },
+    "0xABC583774E6cdAc837e0F8FC4D45a95fa1c409EA": {
+      "balance": "240026118078027236548995",
       "youngestLotDays": 1,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 29
     },
     "0xac4546287B57051e6F82cF0E735b19aE98D804A7": {
-      "balance": "899225086553710518107732",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "balance": "910841563841096076039328",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 12
     },
     "0xAc8EEa6b0b8D8842Bf9Cb61E8100B8a90814610C": {
-      "balance": "48172334328426844549529",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 19
+      "balance": "50056554562814174279482",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xacd87BFF1F92FEAe7B255375f18Fa0BdC63156c3": {
-      "balance": "5144859901777946821020976",
+      "balance": "5215252155696516368825569",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xacf7CAefba275EBed61605F8672088f50Ac72Cd7": {
       "balance": "37776290113968698590",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 22
+      "youngestLotDays": 20,
+      "daysUntilEligible": 10
     },
     "0xAd007878e8e81A4412becDb2728f2b3E5dCfa876": {
-      "balance": "272108068676502319172660",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "274852559667324256774920",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0xaD01C20d5886137e056775af56915de824c8fCe5": {
-      "balance": "7266568264523932912877",
+      "balance": "240025743841929449631",
       "youngestLotDays": 0,
-      "daysUntilEligible": 26
+      "daysUntilEligible": 30
     },
     "0xAD381C17163818a6f5746ecc8a7cf4041FBe9eA8": {
-      "balance": "221443286427433165365231",
+      "balance": "297595824883604211154807",
       "youngestLotDays": 3,
-      "daysUntilEligible": 24
+      "daysUntilEligible": 12
     },
     "0xaD654244Be8dA882d4fb59A4ae01d2009E0Ad85F": {
-      "balance": "81400460543587365031821",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 21
+      "balance": "83294774265979645921396",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 9
+    },
+    "0xAD6620Bb6E47D07709721F7eB186049D9F300B6B": {
+      "balance": "716941964307629699484408",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 29
     },
     "0xaE3c4cC5b12442fb2A3B75a1c35A209631066cF4": {
-      "balance": "9343094190930393055909546",
+      "balance": "10432971191811458134991536",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xae410D4A73D08e38Ff8d8aE2758aCE79AcCFDe0c": {
-      "balance": "109454605699185925704466",
+      "balance": "111221877194869215991709",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xAee750984Cc941F75FF2453D6CE7c6f2f5b83dA1": {
-      "balance": "736157477040251119563714",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 22
+      "balance": "2100289782616038275028",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 19
     },
     "0xAF51c1683A83179F1b0eF895A34BcBD9b47EBBC7": {
-      "balance": "2208902623932134922518202",
+      "balance": "2237187719086375371405463",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 13
+    },
+    "0xAf6193fd81b4c8435e6E81c45ee7CdC511FE5F3a": {
+      "balance": "9728156283952533492190845",
       "youngestLotDays": 0,
-      "daysUntilEligible": 25
+      "daysUntilEligible": 22
+    },
+    "0xAFe49b8181f7a2527014e997DBE8a1bd246ac9D0": {
+      "balance": "102623522875009390485436",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 28
     },
     "0xaff2Ab518BA962bD19f67E75ceb9dE4Da350B327": {
       "balance": "2531636300867537231455",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 24
+      "youngestLotDays": 18,
+      "daysUntilEligible": 12
     },
     "0xAFF55c63c8Cb212D20e41DBb716a77d3Be70d495": {
-      "balance": "217410642176156647927768",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "balance": "220435329889190541627849",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
     },
     "0xB11d7441A5E5E66245e6D69185339df6B236D5E0": {
       "balance": "145185905364685679356967",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "youngestLotDays": 12,
+      "daysUntilEligible": 6
     },
     "0xb14302e5207a5688E3EB4ef8fD42D70569C67e0c": {
       "balance": "1037164328236297272688",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0xb1f719BE7e400223bC0aB39f29f6d7720f12a9D4": {
-      "balance": "16487252094667394128090590",
+      "balance": "18573994674989837158730203",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 9
     },
     "0xB27cD8F0a6ef51F5E61b47Ad10900670ad55e66a": {
       "balance": "1148527666961826198610",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xb2Cd76921325064FA42a457A691eb2dB1F56Edaa": {
       "balance": "44898835",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xb354561f196A79e6fD3aA60732EE6810151fFf16": {
-      "balance": "77533998162980790909581",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 22
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xb359439487eA89D5eBAB5C3F68228Fd45AbebBf6": {
-      "balance": "112011672052227620758372",
+      "balance": "113838215875516527004052",
       "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0xb3c85053B5Da4844132d7a472B6d6c178d2349E8": {
-      "balance": "69687036828777333455937",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 17
+      "balance": "71308761193185842768902",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0xb4Abcf1150D1c1B62Cd2718d4eA8759f5e72afC4": {
-      "balance": "27816258357607075083745",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 24
+      "balance": "42346833276400868991586",
+      "youngestLotDays": 8,
+      "daysUntilEligible": 12
     },
     "0xb4C5487f02E62b292d8Fa6921de1CEc1DE716431": {
       "balance": "3998727952403489587054",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0xb556F8524072ccCFBB63253cf8a9b53B0072E811": {
-      "balance": "89204589657612701712134",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 20
+      "balance": "13471213046273303170968",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 25
     },
     "0xB606F2Ffb9C7ecFc4fcab18318249cd43E5Bf7ce": {
-      "balance": "685219954365195516841057",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 24
+      "balance": "693563955739270881342699",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 12
     },
     "0xb6b0E5e92d63631EeA1a93Bb1c15C4F69A09722a": {
       "balance": "8108225417995761552245",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xB6d5c622ED57f88eCaC76d363709f5857296Ae74": {
       "balance": "2197782886037345194072",
-      "youngestLotDays": 11,
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0xb700112e7e03bef8afA6Be8Ee19e786AAA71F72B": {
+      "balance": "2321494080381638645375116",
+      "youngestLotDays": 2,
       "daysUntilEligible": 19
     },
     "0xB74c0E2dE27Efcf2B0aBc0739b232eb08fEC466e": {
-      "balance": "942110850503007721488734",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 26
+      "balance": "1589489362514581380433272",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 14
     },
     "0xb8366045Ce31Ab693562fA15099671E308513aAe": {
       "balance": "4808889680239440629",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xb8758e4050cD389e3d483dc05DCb6cB5DC4Acb23": {
-      "balance": "2456846730606168723788929",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "balance": "42728402960341043863335",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 27
     },
     "0xb87E63c791568E2ebE4b6E2DdB8a078F5B0B6BA5": {
-      "balance": "13260458355638510298731715",
+      "balance": "13453278352934141067338476",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
-    },
-    "0xb8Af2C760D3cc4A773601a99f7b43D4138B75eB7": {
-      "balance": "472150976289515766578993",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 5
     },
     "0xB8ea96f27811bd1B1F86f4d5C06569Cd99515f34": {
       "balance": "62654997229187407153447",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0xb9540C76b3DB8e686Bd12e7f29130F7FB3A39604": {
       "balance": "1727642773471811896353",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 18
+      "youngestLotDays": 23,
+      "daysUntilEligible": 6
     },
     "0xb963fa652274e887E7Ab9876f436e054Dfb3C3cD": {
-      "balance": "60295499347403474035483",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
+      "balance": "62005256788769789210017",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xB97bCC3180DB0666788a1f966Ad739F8F1C7d749": {
       "balance": "2442723666375267921917",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 20
+      "youngestLotDays": 20,
+      "daysUntilEligible": 8
+    },
+    "0xB9E19b034D613aDBCE1FB7e1326f30fB332012C0": {
+      "balance": "1362360171850348325287744",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 24
     },
     "0xBa7D5a6c43A99b8457322cE7e9944F48A2d82c31": {
-      "balance": "1049328165566886833165231",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "1063178556172894329990114",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0xbB471fB6bA2D07176193281e3333eE9b07865611": {
-      "balance": "1330764070731066056608384",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "balance": "1348336261768005521745614",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 9
     },
     "0xBbBb8b13CA2fa3504634F536854880E7224A4195": {
       "balance": "899225",
-      "youngestLotDays": 13,
-      "daysUntilEligible": 17
+      "youngestLotDays": 25,
+      "daysUntilEligible": 5
     },
     "0xBC0dC60548702B356804Ddd06b8f0F9Dfe5A62A4": {
-      "balance": "98817169947517632701221",
+      "balance": "100412687711405006887070",
       "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0xbcC790595692f5d55eDB61181fBc1F8f77d69702": {
       "balance": "325350865",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xBD6940BaA357Fb2aFF3BC2e4a10DFB17F1966F12": {
       "balance": "7610875376982114949507",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xbD977486503bC55f9Cc7066B0d344782ACfDC095": {
-      "balance": "123108256739536786746787",
+      "balance": "125112088426501834366825",
       "youngestLotDays": 3,
-      "daysUntilEligible": 22
+      "daysUntilEligible": 10
     },
     "0xbDA8E100dAAb8bAd0592c40da0c58f2203d07c77": {
       "balance": "22529188642617117877742",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xbda8e7fbAa92E5650c907843a9BA40258138e0B2": {
       "balance": "90319027",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xbE61eEdb9ea7221291e480A7124ca3078d227904": {
-      "balance": "16598844530420624797263199",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
-    },
-    "0xbE693a0CC2FE6748D2ea89E8d87FfF7d1049c6EB": {
-      "balance": "125085555236824716917330",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xBEaBf20CaBcdC8C80b377FAa35a5302283694680": {
       "balance": "5617843144151612310130",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xbF1D67071B6B06694FD9799362EDAf67d2c71FBe": {
-      "balance": "53104184619855773390079",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 19
+      "balance": "55031145565638345132373",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xbf4A7a8F27EF381aa0452BFd5bF4a8397BCFf820": {
-      "balance": "99634027934855229409714",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "104684793114334354484250",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 6
     },
     "0xBf68a881eff0CDd8FabcDe72f1ad183650085FBE": {
-      "balance": "5590999074489398721993449",
+      "balance": "5664428446563513183266218",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xBfCfb745Ce95DF30F84bDA0C441Af890132Fb5dF": {
       "balance": "705124201821507592406",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0xc00d1E6cea8Fe30e2C7019351a32F845fBA59fff": {
-      "balance": "697070647215584783134746",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "704114642254845339856262",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xC0471F8a0ca9ac3E234448344284dcA8e93E0b58": {
-      "balance": "1118997968610054680801456",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "1133452030383848596892313",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
     },
     "0xC06ebbefD94032B85424D51906e2A335EFAe264B": {
-      "balance": "8585571838649042929771",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 27
+      "balance": "15231804685659677341256",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 15
     },
     "0xC0FC3A76e43597D81df60773954d025FAEDa7263": {
-      "balance": "1393250338300517456486795",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "balance": "1417871965099394832905583",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
     },
     "0xc19922669fAe64DFf3c6e9B482bc298A44598173": {
-      "balance": "550508559403542999925171",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "556545755266616986416440",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0xc19cA3a9251714097FF76CF26680B2c25B0C36C7": {
       "balance": "6328718182617449662721",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 22
+      "youngestLotDays": 20,
+      "daysUntilEligible": 10
     },
     "0xC1aE49D59f3557c6eC4F2398831C72B623885338": {
       "balance": "10000000000000000000000",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
-    "0xC1CBFD0f49450878C074e3935554002201Db3235": {
-      "balance": "681144312103160146599007",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+    "0xc2077d52F4B506664b1E03Cf9B285498FD4F7a2c": {
+      "balance": "975372494319064828830727",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 20
     },
     "0xc2437acCB6eB21aD03eb6132F41c345f475BaaE9": {
-      "balance": "7070363191852219303665118",
+      "balance": "7163232265878251915153183",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xC2EdEC9Fe5930cC30AFeA77298BbD2f6493E5835": {
-      "balance": "3250877972283987524908040",
+      "balance": "3293562851300131570115537",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0xC31Bd8A6cfCaaCEc6f26f7120dDd81F680047195": {
       "balance": "2740575320979889038219",
-      "youngestLotDays": 5,
-      "daysUntilEligible": 25
+      "youngestLotDays": 17,
+      "daysUntilEligible": 13
     },
     "0xc3321B8970bAf9F7F9FEFe4B936AB49332AAC424": {
-      "balance": "169851321221113741031081",
+      "balance": "172593767704573625441727",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
+    },
+    "0xc3714920800cC53D689Dcd4FAa2f8aF382614fdd": {
+      "balance": "57616700241913340246036",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 26
+    },
+    "0xc4Dddf1eE0708DCa794C9417F00398Eb67497C78": {
+      "balance": "5809777033636097637981",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 29
     },
     "0xc5B2b9FC12a335F09F29c95BdE91c82e2EF9A646": {
-      "balance": "538258808201110049795383",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "544161666194191350684994",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xC640156596E0F2e07C9721646dedE828be8E47de": {
       "balance": "18366474470117803990",
-      "youngestLotDays": 5,
-      "daysUntilEligible": 25
+      "youngestLotDays": 17,
+      "daysUntilEligible": 13
     },
     "0xC69E7d8c948158971864608b70D2C2b31248F346": {
       "balance": "1212906697019562105190",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 25
+      "youngestLotDays": 15,
+      "daysUntilEligible": 13
     },
     "0xc6d6033F7aF6f86F55330b59033003C333eb1a39": {
-      "balance": "74893229389669228894512",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 24
+      "balance": "76611987770142068472350",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 12
     },
     "0xC6E8Ff2b228fD347499fAa91A1Cce4a7707b8d0e": {
-      "balance": "1094392349145285216814500",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "balance": "1109483476853597309697602",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 12
     },
     "0xC722085ecC989d911297F59822705a18bE2Cdd74": {
-      "balance": "119875635797011811219083",
+      "balance": "121838050298230686635705",
       "youngestLotDays": 3,
-      "daysUntilEligible": 17
-    },
-    "0xc79B71EA4257422064e6D1e876f430ec92182851": {
-      "balance": "55084348281691630823573",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 5
     },
     "0xC7e8e67C0ABE81b1dD4952571D62306C3DE14bd5": {
       "balance": "2022800984265478260567",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
-    "0xc862ac9266B4c389EEC9699d9F6CAEE9De6Bb638": {
-      "balance": "33918486925844801",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 27
-    },
-    "0xc884Eb27ea6e221E5d208230167D3f910EacECE8": {
-      "balance": "7921395",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xC8e93c17eC185Be38Bda4BbBA0E2cAEC8160c973": {
-      "balance": "251616987855320484033803",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
-    },
-    "0xC944A13CB7Cd25cb10942F3EA370b063DfeEC27b": {
-      "balance": "12220348434709318047407326",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
-    },
-    "0xcb22f27cDaFd857E63bF080b0231f00A305784bd": {
-      "balance": "227701107316772716579432",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
-    },
-    "0xCb892E05fA8f48d6C531cBa279eea615f23a0c77": {
-      "balance": "2758412229087510817140",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 23
-    },
-    "0xcC44359A3bd1489e38aC73C2539282DAe638abE5": {
-      "balance": "547172437741436395575049",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
-    },
-    "0xcc6eE634e92A31B95740d731f2109b48f0B64c50": {
-      "balance": "37790245681406898993234",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 20
-    },
-    "0xCC715D40AF529f879e748991C04f6685E4c40Cbb": {
-      "balance": "155966032511159717525",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
-    },
-    "0xcc8Bec0078Bf468b5212A223fE6dAc4B89e51dEF": {
-      "balance": "52196081778927655202",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xcC8F656E466f2C16544782b4b45f92Ceb61e14D6": {
-      "balance": "17085164176002651805921",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 19
-    },
-    "0xcD6b980029E6E6e0733ac8eC3E02be9410D09799": {
-      "balance": "44030379421000933760898",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 26
-    },
-    "0xcD6dF2ca321897b88C3D874D9350c911C56a923E": {
-      "balance": "1626001597907247090516",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
-    },
-    "0xcD9400b027aeB2E10f6Be082EB889F8e4C031c80": {
-      "balance": "307688670828598278550949",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 26
-    },
-    "0xce2641a2F95AEa7097cd5386Fb18cF86b7f6822A": {
-      "balance": "2513982759208042712",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
-    },
-    "0xCE487ba5066CB40D4F0685826861742Df8997544": {
-      "balance": "3120916773250707146636",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xcf15eFCDb15BA425693C7AB6F2fD033130d3Acfc": {
-      "balance": "5675478446924340100340",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xcF528f3F8692218AeAB1081b1DC32f2c90d27A9f": {
-      "balance": "35377328930461325666393",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 22
-    },
-    "0xCFB6b1338Ff38BFaC55910529D42604532a283c5": {
-      "balance": "326634207166416649494219",
+    "0xC7f7d46493F35C075A379026C31a966f009C7b34": {
+      "balance": "9376896298097572991337316",
       "youngestLotDays": 0,
       "daysUntilEligible": 25
     },
+    "0xc8169eA3264bbb35D0F98259d35A24f86dAcFdEF": {
+      "balance": "9832660616928044791069364",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 28
+    },
+    "0xc862ac9266B4c389EEC9699d9F6CAEE9De6Bb638": {
+      "balance": "187947026976409265160205",
+      "youngestLotDays": 5,
+      "daysUntilEligible": 20
+    },
+    "0xc884Eb27ea6e221E5d208230167D3f910EacECE8": {
+      "balance": "7921395",
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0xC944A13CB7Cd25cb10942F3EA370b063DfeEC27b": {
+      "balance": "12382832586112603092988567",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 7
+    },
+    "0xCb892E05fA8f48d6C531cBa279eea615f23a0c77": {
+      "balance": "2758412229087510817140",
+      "youngestLotDays": 18,
+      "daysUntilEligible": 11
+    },
+    "0xcC44359A3bd1489e38aC73C2539282DAe638abE5": {
+      "balance": "645139265684106076850672",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
+    },
+    "0xcc6eE634e92A31B95740d731f2109b48f0B64c50": {
+      "balance": "37790245681406898993234",
+      "youngestLotDays": 20,
+      "daysUntilEligible": 8
+    },
+    "0xCC715D40AF529f879e748991C04f6685E4c40Cbb": {
+      "balance": "155966032511159717525",
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
+    },
+    "0xcc8Bec0078Bf468b5212A223fE6dAc4B89e51dEF": {
+      "balance": "52196081778927655202",
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0xcC8F656E466f2C16544782b4b45f92Ceb61e14D6": {
+      "balance": "17085164176002651805921",
+      "youngestLotDays": 22,
+      "daysUntilEligible": 7
+    },
+    "0xcD6b980029E6E6e0733ac8eC3E02be9410D09799": {
+      "balance": "75459223908136008254498",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 14
+    },
+    "0xcD6dF2ca321897b88C3D874D9350c911C56a923E": {
+      "balance": "66957940208593603697",
+      "youngestLotDays": 1,
+      "daysUntilEligible": 29
+    },
+    "0xcD9400b027aeB2E10f6Be082EB889F8e4C031c80": {
+      "balance": "311021140593519425191084",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 14
+    },
+    "0xce2641a2F95AEa7097cd5386Fb18cF86b7f6822A": {
+      "balance": "2513982759208042712",
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
+    },
+    "0xCE487ba5066CB40D4F0685826861742Df8997544": {
+      "balance": "3120916773250707146636",
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0xcf15eFCDb15BA425693C7AB6F2fD033130d3Acfc": {
+      "balance": "5675478446924340100340",
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
+    },
+    "0xCFB6b1338Ff38BFaC55910529D42604532a283c5": {
+      "balance": "329928650595539075375368",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 13
+    },
     "0xd072A3027682Cfa62B33d11A2c947784ed1c86b9": {
       "balance": "12192881304053335572285",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xD097F119110887A6793CC27Ba3Bb76021FcB8771": {
-      "balance": "77675257323337309269154",
+      "balance": "773343254578611616892011",
       "youngestLotDays": 3,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 8
     },
     "0xd0A67cB08BE17475f4315a04C5F0Be3e200Ef66c": {
       "balance": "6533013569290922323844",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 17
+      "youngestLotDays": 21,
+      "daysUntilEligible": 5
     },
     "0xD27482B5F09761E9e93eBc30F5254F93AF4BCF6B": {
-      "balance": "144256849956332597805592",
+      "balance": "146618395172525055554117",
       "youngestLotDays": 3,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0xd28b0F014e990c9356eD4369f6b33a65dFDEaF9c": {
-      "balance": "313203878275157126132204",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "316362862962371909675856",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0xd30B8C8Dd286E11a065272bC35A2837e73C71377": {
       "balance": "13242752208977656554654",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 20
-    },
-    "0xd3cD986E064f15a8b0f9Faa642aC7A726e851A37": {
-      "balance": "15700518320722201290814257",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "youngestLotDays": 20,
+      "daysUntilEligible": 8
     },
     "0xd4581499566d0386493cC169644505cf8e223692": {
-      "balance": "4869054134899075858465481",
+      "balance": "4935672799265161374165391",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
-    },
-    "0xd4627eCb405B64448EE6B07dcf860BF55590c83D": {
-      "balance": "328874180748988428882",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 7
     },
     "0xd4E3f654C2A4b4Bb778e712feB214e87D35B0f2D": {
-      "balance": "1576752735712057024322657",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "1597379367896647831244664",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0xd4ecA15c91bec4565bF8145F240e3E484874c17b": {
-      "balance": "1052705742704174761866558",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "1067222032784994058799196",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
     },
     "0xD5657451601bb6207AaB906A1024D855a51931e5": {
       "balance": "1429937526979341475541",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xD590D02eC4e6322c5C761F384Ec3C715c8e7b2B5": {
-      "balance": "7176067404561677638459326",
+      "balance": "7271477853590588176014870",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0xd59466C57B10D0D348fbb2aEF1612Cc00e8359DC": {
       "balance": "3450075438748264317412",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xd78069b822ec9401965ec87a8Bfb2F956B2E3A39": {
       "balance": "308569388158376935424",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xd78902a4D9394e3d159352FF6E8D969Bf4c0742d": {
-      "balance": "110906126992368263942836",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "balance": "1026436114048054498600895",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
     "0xD8538146f7A949D35E4414A2ae1708d72806e7ea": {
       "balance": "3974192277937888846731",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xD912b3191bE84ab6EfC72e9d44f22653dDddEF25": {
-      "balance": "163106218045512483686850",
-      "youngestLotDays": 4,
-      "daysUntilEligible": 20
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xdA16E10E87bBbA2fEb8ef0172B941e92e7929c0E": {
       "balance": "399686737474914336971",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xDa5A58222C2B1a5566eCa62491eee61623a22476": {
       "balance": "136550706157529433059889",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "youngestLotDays": 12,
+      "daysUntilEligible": 9
     },
     "0xdA69eaa47f463A1e34AeE1b65A9984e69Ec06C90": {
-      "balance": "231985839512472289053509",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "balance": "250883022663038656076392",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
     },
     "0xDB58DcD14Be42F282C9aFaa3C766eab1d11EDBA9": {
-      "balance": "43206351379899735177145",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "balance": "44776278716516191247843",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 8
     },
     "0xDb786A49a2727697431Ed8Ba0980321270402ac9": {
-      "balance": "161302903439432504222916",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "balance": "163426131623489644759928",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
+    },
+    "0xDBa289e1C53d60af1f1726452017f48A6701EB35": {
+      "balance": "650245918518264388230108",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 30
     },
     "0xDBe352a37b904099A673E93C02F64E007ab1E8d8": {
       "balance": "90",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xdC0B95EEed826699229b91a5F70F198A6d7649FF": {
-      "balance": "632936424629159181606572",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "639332334502948845979883",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
     },
     "0xdc548Fa01D992B815343F7978127a38d1E30756f": {
-      "balance": "451441194751915289958389",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 22
+      "balance": "458041526262160373767589",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 10
     },
     "0xdc87A81D9890259D0074dec035C6929Eeb386EF1": {
-      "balance": "21164094232666663173907002",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 28
+      "balance": "8873867399910676941818",
+      "youngestLotDays": 8,
+      "daysUntilEligible": 22
     },
     "0xdC8a6008126525A954F77DF681532C1f6e1B3243": {
-      "balance": "3348265508470777542859949",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "4968606494170615978769",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 20
     },
     "0xdCd5F37d6a16174C8182A469D9E5a82B2D632182": {
-      "balance": "197351877744008799558419",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 27
+      "balance": "200027884252881658640557",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 15
     },
-    "0xDef9470599695b46da45e3416De4181cc74Cd0fe": {
-      "balance": "1172975827598257806852013",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+    "0xdCf4b3631fCDB77021A5bF7B9DA5cDD3D4519adD": {
+      "balance": "229187648581088960743373",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 20
     },
     "0xdF85864942b7A8ce2537fb2757066D6aAB5ca552": {
-      "balance": "355808333865560298002443",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "balance": "359661971087629058015348",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 6
     },
     "0xDf912dF6C9ab3b41631d22Ee4E96074C5B8407Ac": {
       "balance": "39756542383123343441614",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 18
+      "youngestLotDays": 18,
+      "daysUntilEligible": 6
+    },
+    "0xe1414616479F70E9F5e155818b6024CD3E2777aB": {
+      "balance": "517727200606366705768910",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 28
     },
     "0xE189403CEe73e03789828dEC19Cf237f55aAbE30": {
       "balance": "20714102407890819756404",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 21
+      "youngestLotDays": 20,
+      "daysUntilEligible": 9
+    },
+    "0xE1E50421ee8f1fC7231E8B5788eE8d27B3c8Fd0f": {
+      "balance": "17083083292877934425645",
+      "youngestLotDays": 6,
+      "daysUntilEligible": 24
     },
     "0xE234fC2b831e40d06c2B78d2F9924250829B08bE": {
-      "balance": "24923488884816221775236",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 20
+      "balance": "30617839132439236630115",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 8
     },
     "0xE27d9E71A92eb928D033194987be22998b336068": {
       "balance": "14679267815279066780243",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xe33647b0BF6b5737D7f9d557E99fE726E8C8b772": {
-      "balance": "6650665686874924194309",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 28
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xe38c39c63b20Fc130bA179f18939778a0EC9E581": {
-      "balance": "1892776315859372637863327",
+      "balance": "4100393202306386746915169",
       "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 14
     },
     "0xE39bdeD2Be07054Fb73A78DD09945abcb6B49b1d": {
       "balance": "6893702504045769708214",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 17
+      "youngestLotDays": 24,
+      "daysUntilEligible": 5
     },
     "0xe3e26bEEA866Dca574BC8beE59D704098c807983": {
-      "balance": "1691788256394730945590961",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "2242833830978908298865",
+      "youngestLotDays": 11,
+      "daysUntilEligible": 18
     },
     "0xE4DC6B2289273D6C0390981DA80b41673e7d4f3F": {
       "balance": "4314087021255801434119",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xE520363cB666581B48cA09d4C9458b0Eae06F12c": {
-      "balance": "517988809664860585111109",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "balance": "524669192823229622699236",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 6
     },
-    "0xE6585E4d40f7454E2e18A8CeD90ebd91f4Dfa071": {
-      "balance": "466651643667599706527026",
-      "youngestLotDays": 1,
+    "0xE586A1118111EC4A679C64260aCb31a1D7258C5a": {
+      "balance": "54614694162053134698064",
+      "youngestLotDays": 8,
+      "daysUntilEligible": 22
+    },
+    "0xe5faacb1eB082B4A7d13E9812C182D28162A08D0": {
+      "balance": "2092623776764407878326002",
+      "youngestLotDays": 0,
       "daysUntilEligible": 26
     },
+    "0xE6585E4d40f7454E2e18A8CeD90ebd91f4Dfa071": {
+      "balance": "1048895705395789767162730",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 14
+    },
     "0xE6C25415A2FF7Ec58eEcceae42e44EdAe594041F": {
-      "balance": "3015930238184127802745877",
+      "balance": "3057181198984471972997373",
       "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "daysUntilEligible": 12
     },
     "0xE75328e7909f2D2552756403C36DCab401480755": {
       "balance": "14743773322056022794938",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 19
+      "youngestLotDays": 13,
+      "daysUntilEligible": 7
     },
     "0xe7Db4aeeA6415C43685bfF6127346FaA58b62820": {
-      "balance": "246008818399390579219032",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
-    },
-    "0xe882063Cf4f54EBB4215e193ADF0054eeDB9B5cC": {
-      "balance": "1333046299594750994296083",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
-    },
-    "0xE94396191532B45c9fA27b085Be8BF73E968a698": {
-      "balance": "205326729982655560918306",
+      "balance": "2136452477027086269043",
       "youngestLotDays": 3,
-      "daysUntilEligible": 17
-    },
-    "0xe9aF0E4B201667001291eF413e5F5E0282c95102": {
-      "balance": "2425420454452831775644643",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
-    },
-    "0xeA01f7fc7216100562a7Ea1ca1ee003B8787Db4b": {
-      "balance": "1008237026324329002119241",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
-    },
-    "0xEa07fd7dbf82C8Ade6c8199F41D56ea470E1e73e": {
-      "balance": "326524750211751103212611",
-      "youngestLotDays": 1,
       "daysUntilEligible": 18
     },
-    "0xEB2184E716AeeECCbc5Ae86CD929c0BF07FE9fE7": {
-      "balance": "1652728042157742015530",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 29
-    },
-    "0xeBC71231de1e9173F696617ef1aFf38Bec0c9389": {
-      "balance": "8136463966760688831536",
+    "0xe882063Cf4f54EBB4215e193ADF0054eeDB9B5cC": {
+      "balance": "1350648626523141644822686",
       "youngestLotDays": 2,
-      "daysUntilEligible": 28
+      "daysUntilEligible": 7
+    },
+    "0xE94396191532B45c9fA27b085Be8BF73E968a698": {
+      "balance": "208183302370831306447641",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 5
+    },
+    "0xEa07fd7dbf82C8Ade6c8199F41D56ea470E1e73e": {
+      "balance": "329605739612987050257836",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 6
+    },
+    "0xEB2184E716AeeECCbc5Ae86CD929c0BF07FE9fE7": {
+      "balance": "1327164121487522203879259",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 17
     },
     "0xEbf0cAe761EB74838DDFa6655B393193Dca0aA94": {
       "balance": "6263459514660295463764",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 20
+      "youngestLotDays": 18,
+      "daysUntilEligible": 8
     },
     "0xec07b45f9C0Bb90730D05Da9cec462986c08AF85": {
-      "balance": "81724379307923006756512",
-      "youngestLotDays": 8,
-      "daysUntilEligible": 19
+      "balance": "84041780559676332916645",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xEc1003a71167b8bD6A8FBb9D78394bCB706F6b6F": {
-      "balance": "12043888594585640475568289",
+      "balance": "12204026501319025721282864",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xEC40fD8955bcc49E09f0B77Fd1b0631f07007C18": {
-      "balance": "230246266503841556698873",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "balance": "232568537971805373130586",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 5
     },
     "0xEc8acB43c45f4B98125dF8cB5F42C963E5b3cfDD": {
       "balance": "108939386145458788226",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xEC9Aa0a6c2372131a0502ABA6188269Ab52CACb5": {
       "balance": "1",
@@ -2655,248 +2625,233 @@
     },
     "0xeCa434448880DCC61bf2D81605a5a6e3bb6ba313": {
       "balance": "2389609912909874274160",
-      "youngestLotDays": 6,
-      "daysUntilEligible": 19
-    },
-    "0xeCCbd0C677b0C9ec579f46E3aF5d951DA57eFf35": {
-      "balance": "268183622384396743006983",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "youngestLotDays": 18,
+      "daysUntilEligible": 7
     },
     "0xed53f145d559D39D6ea4A0959DcEc4f6eA9e9a67": {
-      "balance": "106810368895369019196826791",
+      "balance": "108213419580076178251974117",
       "youngestLotDays": 0,
-      "daysUntilEligible": 20
+      "daysUntilEligible": 8
     },
     "0xed842fBaAad6b340b7497e2F160A8af0117807e0": {
-      "balance": "1033007490167537064612753",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "balance": "1047241872321361041508835",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 12
     },
     "0xeDc9f4b88DF7048CB89FbE6717AD7e86D8686FA2": {
-      "balance": "101827663475070827730275",
+      "balance": "103471789146914179049636",
       "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0xeE48400CB9d58F4432A910245908BA65AbC0e2fa": {
       "balance": "1004361617059159344368",
-      "youngestLotDays": 7,
-      "daysUntilEligible": 23
+      "youngestLotDays": 19,
+      "daysUntilEligible": 11
     },
     "0xEE6f20E93152A7A46B0f2EBA36e06cF0C8F4fC10": {
       "balance": "98313179",
-      "youngestLotDays": 5,
-      "daysUntilEligible": 25
-    },
-    "0xeeC166B0436e52DDe5F676E743b4fa5FFe844996": {
-      "balance": "768447708630719171560200",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "youngestLotDays": 17,
+      "daysUntilEligible": 13
     },
     "0xeF0465d919fBa8ECF368539b6Bd9A3911c2327Ad": {
-      "balance": "16901265153791108403777",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 24
+      "balance": "27736313935986285509528",
+      "youngestLotDays": 5,
+      "daysUntilEligible": 12
     },
     "0xeF98715c95a5F8508e578f3053147EB25356aF50": {
-      "balance": "3086076616996170011965860",
+      "balance": "3589860379704825811477899",
       "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "daysUntilEligible": 7
     },
     "0xefA704BbC01AD0F6d7671AE1C3E019deaEe436A8": {
-      "balance": "71446830555339351456637",
-      "youngestLotDays": 2,
-      "daysUntilEligible": 19
+      "balance": "75546291309730031268800",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xeFF6A0588BCf8Eea12817d0a41a680EdaF4923CA": {
       "balance": "20981150044948989432932",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 17
+      "youngestLotDays": 24,
+      "daysUntilEligible": 5
     },
     "0xF0B092C1Af25C01791f8195f3920Bb83c4d0b073": {
       "balance": "14373599141938685297775",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xF104b14976bE482E1Ef7bC920338b39Ab67be6FB": {
-      "balance": "459928403745446398497251",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 20
+      "balance": "466806447251399486504842",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 8
     },
     "0xf1248B66C710043E81DFB0842F336447c4f9A056": {
-      "balance": "3193959548790653954820173",
+      "balance": "3235897074002282339422404",
       "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "daysUntilEligible": 5
     },
     "0xF1cb329B282D6b7F619AdBcD81600922991bE0e1": {
-      "balance": "873827125097894272981302",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 22
+      "balance": "885361025932617408502566",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 10
     },
     "0xF200c1Ce1D58EC85AC0307274523f17A73981996": {
       "balance": "9592978962436672954865",
-      "youngestLotDays": 9,
-      "daysUntilEligible": 19
-    },
-    "0xf201fDf4788Cbc8B289781730f734ed48d6F014e": {
-      "balance": "299807519436825713159060",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 17
+      "youngestLotDays": 21,
+      "daysUntilEligible": 7
     },
     "0xf28c6F74F036852a2f7B66AA6d8ECd78F3305452": {
-      "balance": "918639906278584115943272",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 19
+      "balance": "930505949225664760972336",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 7
+    },
+    "0xf2a34a8BCAeb2Bf49776e29476fB347bE0811Df4": {
+      "balance": "3402769996387777030758",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 27
     },
     "0xf2f59A4903E4EE0DD1C46302C98f5Ac2f9197F9f": {
-      "balance": "1495093727654900135369247",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 25
+      "balance": "1514233588342585710851005",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 13
     },
     "0xf31c56B17d142504c9a2F846DcA04B527A5ff983": {
       "balance": "9697052864919822495415",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xF3A489067419050A8551dA5EE809FfB98609A02A": {
       "balance": "1855757",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xF3B9B7cdc116BBBc013f1dE5481F5402Bd3dA2ef": {
       "balance": "2196748513",
-      "youngestLotDays": 10,
-      "daysUntilEligible": 20
+      "youngestLotDays": 22,
+      "daysUntilEligible": 8
     },
     "0xF5237a89156700b6dEc2883F1576126306eE9A80": {
-      "balance": "13379596583809892274652139",
+      "balance": "13557493917543950525062148",
       "youngestLotDays": 0,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xf5BC02C918ba2D8E809520934bb9FaE566c071d0": {
       "balance": "3387222468218848271605",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xf5c4F3Dc02c3FB9279495a8fEF7B0741da956157": {
-      "balance": "4605541219679247859244",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "balance": "146115228566104509459",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 26
     },
     "0xF69cD0fE7280773BB9B7c93AB68420D07290AFa9": {
       "balance": "15824847520935444583",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
+      "youngestLotDays": 24,
+      "daysUntilEligible": 6
     },
     "0xf73c0FF40CEADaF71D59eDE0137e62221181de9A": {
-      "balance": "162470987156768453499131",
-      "youngestLotDays": 4,
-      "daysUntilEligible": 19
+      "balance": "165222778205506993421950",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 7
     },
     "0xf751c16Ef98a8619390b7E47A087feF5703fE067": {
       "balance": "138154533155155196133821",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "youngestLotDays": 12,
+      "daysUntilEligible": 9
     },
     "0xF833264aaac18423745Fc6B4716009eCd59e114a": {
-      "balance": "2987565281880918",
-      "youngestLotDays": 12,
-      "daysUntilEligible": 18
-    },
-    "0xf86e4B7848cEaF701701c1dC95a441CffDd1EA10": {
-      "balance": "23094812812533411291109049",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 28
+      "balance": "12321727046791150179486",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 6
     },
     "0xf8721E37F558436eB4E6888070305df3E6f24DA3": {
-      "balance": "240355428617132885264957",
+      "balance": "244290748140920282708121",
       "youngestLotDays": 3,
-      "daysUntilEligible": 22
+      "daysUntilEligible": 10
     },
     "0xf91be102Bef943726C0C9861d3875da98c2a56B5": {
       "balance": "9185109216287361233925",
+      "youngestLotDays": 18,
+      "daysUntilEligible": 12
+    },
+    "0xF9250Dba989EABea8016CDdc8c2dbE8ff8216c3a": {
+      "balance": "774259846071503072894990",
+      "youngestLotDays": 3,
+      "daysUntilEligible": 6
+    },
+    "0xFa9E8ceb4F1F8a0B3d0deceC8f758D5eA6e4E212": {
+      "balance": "9861511810820467600926241",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 27
+    },
+    "0xfAaeff2d867828b88d3bb4EE386D8D25179ce90c": {
+      "balance": "15297822967721469884129969",
+      "youngestLotDays": 0,
+      "daysUntilEligible": 8
+    },
+    "0xFABd94eA2E405DBd74BD9c262199fAB9f32b7D58": {
+      "balance": "6598627360419413021152",
       "youngestLotDays": 6,
       "daysUntilEligible": 24
     },
-    "0xF9250Dba989EABea8016CDdc8c2dbE8ff8216c3a": {
-      "balance": "707615729329770125841348",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
-    },
-    "0xfAaeff2d867828b88d3bb4EE386D8D25179ce90c": {
-      "balance": "15097089508004865665210278",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 20
-    },
     "0xFAD4c8F1e71E4c56B87733BD916FF7CfF46c6C29": {
-      "balance": "11350342266750702902820",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 24
+      "balance": "36908110444692807812777",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 12
     },
     "0xFaE7aE759C3d514397B12e5FF5835AA4552E806B": {
       "balance": "7325666894231187480423",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
-    },
-    "0xFB3dd0b2BD0f47973F90eE3FfF9866Cfe12Cd54E": {
-      "balance": "914852321133176742058920",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 21
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xfc0263C05f560F3eC14Dcf56e1b475afa40CefF6": {
-      "balance": "168815815848801640124785",
+      "balance": "171541542897602525075889",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
+      "daysUntilEligible": 6
     },
     "0xFca78e50737bc30274A567446A363FB8E5b9814A": {
-      "balance": "10805132270189638914597165",
+      "balance": "17666609188364523515826767",
       "youngestLotDays": 0,
-      "daysUntilEligible": 30
+      "daysUntilEligible": 18
     },
     "0xfD2EA8FfbdBA421F8BD4E9dE99C4fA77E96BFe0c": {
       "balance": "1024020266768889784169",
-      "youngestLotDays": 11,
-      "daysUntilEligible": 19
+      "youngestLotDays": 23,
+      "daysUntilEligible": 7
     },
     "0xfdfc45155D65ffc60aCFC153471FBEFB04038D95": {
-      "balance": "339335881251887417681271",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 18
+      "balance": "342537752635046352022124",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 5
     },
     "0xfe7Cb9ee6E52BF726610ef654674b0b8ce1678BE": {
-      "balance": "225845893880297532121582",
-      "youngestLotDays": 3,
-      "daysUntilEligible": 19
+      "balance": "228994652001876720092451",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 7
     },
     "0xfEE5fEe50000062bd986e86502C5AcDf989067A0": {
-      "balance": "2590353965067973212201",
-      "youngestLotDays": 1,
-      "daysUntilEligible": 29
-    },
-    "0xfEeAC21C90b9291209f5F0Fdc271aEF3Feef303d": {
-      "balance": "1821027229890367248",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 30
-    },
-    "0xff188BAff25ab1876c7356730D9913B9783Df033": {
-      "balance": "630432593522465224301499",
-      "youngestLotDays": 0,
-      "daysUntilEligible": 25
-    },
-    "0xfF5bef66bDe1fc3d3E77568A30678864e3341c5a": {
-      "balance": "187306506767944761323182",
+      "balance": "23082212567246979752744",
       "youngestLotDays": 3,
-      "daysUntilEligible": 18
-    },
-    "0xFf8D30795555F74D78B3364C0367008047789397": {
-      "balance": "1853181618397812309987922",
-      "youngestLotDays": 0,
       "daysUntilEligible": 17
     },
-    "0xfFcaa153245CE13F857946Ffa5EcB59f104dD8Db": {
-      "balance": "7125984003543658368745",
+    "0xfEeAC21C90b9291209f5F0Fdc271aEF3Feef303d": {
+      "balance": "5293042316844877713",
       "youngestLotDays": 1,
-      "daysUntilEligible": 28
+      "daysUntilEligible": 18
+    },
+    "0xfF5bef66bDe1fc3d3E77568A30678864e3341c5a": {
+      "balance": "189887870758375309185924",
+      "youngestLotDays": 4,
+      "daysUntilEligible": 6
+    },
+    "0xFf8D30795555F74D78B3364C0367008047789397": {
+      "balance": "1877246216780198605596148",
+      "youngestLotDays": 2,
+      "daysUntilEligible": 5
+    },
+    "0xfFcaa153245CE13F857946Ffa5EcB59f104dD8Db": {
+      "balance": "3236081900465771664442",
+      "youngestLotDays": 9,
+      "daysUntilEligible": 21
     }
   },
   "reconciliation": {
